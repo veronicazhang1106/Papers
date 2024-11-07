@@ -1,0 +1,288 @@
+---
+title: "Nature-related Financial Disclosure"
+author: "Veronica Zhang"
+date: today
+dateformat: long
+format: 
+  revealjs:
+    theme: white
+    toc: true
+    slide-number: true
+    scrollable: true
+    self-contained: true
+    preview-links: auto
+    link-external-icon: true
+    link-external-newwindow: true
+include-in-header: 
+  - text: |
+      <style>
+        #title-slide.title {
+          font-size: 2em;
+        }
+      </style>
+execute: 
+  eval: true
+  echo: true
+  output: true
+  warning: false
+  error: false
+  include: true
+---
+
+## Relevant Nature-related Policy/Regulation Frameworks{.smaller}
+
+- EU Taxonomy 
+
+:::{.callout-note}
+## Resource
+[Background information of EU Taxonomy](https://www.spglobal.com/esg/insights/a-short-guide-to-the-eu-s-taxonomy-regulation)
+:::
+
+- Task Force on Nature Related Financial Disclosures (TNFD) 
+
+:::{.callout-note}
+## Resource
+[Background information of TNFD](https://tnfd.global/)
+:::
+
+- ISSB Sustainability Disclosure Framework - IFRS S1 and S2
+
+:::{.callout-important}
+[ISSB new work plan](https://www.ifrs.org/news-and-events/news/2024/06/issb-delivers-further-harmonisation-of-the-sustainability-disclosure-landscape-new-work-plan/)
+:::
+
+
+
+## National and regional sustaianblity disclosure frameworks
+
+::::{.panel-tabset}
+
+### EU
+
+- The Sustainable Finance Disclosure Regulation (SFDR)
+- The Corporate Sustainability Reporting Directive (CSRD)
+- The European Sustainability Reporting Standards (ESRS)
+
+***The European Sustainability Reporting Standards (ESRS) are mandatory reporting framework.***
+
+:::{.callout-note}
+## ESRS on nature-related disclosure
+The ESRS includes five environment-related standards on: (1) climate change, (2) pollution, (3) water and 
+marine resources, (4) biodiversity and ecosystems, and (5) resources and circular economy. 
+
+[European Sustainability Reporting Standards](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=OJ:L_202302772)
+:::
+
+
+### UK
+
+- Climate-related financial disclosure requirements made mandatory
+- Plans to establish a framework to assess the suitability of IFRS S1 and IFRS S2 for endorsement
+
+:::{.callout-note}
+The mandatory Climate-related Financial Disclosure Regulations were made on 17 January 2022 and apply to reporting for financial years starting on or after 6 April 2022 in the UK. 
+
+[Information on the UK SRS](https://www.gov.uk/guidance/uk-sustainability-reporting-standards)
+
+[Framework and Terms of Reference for the Development of UK Sustainability Reporting Standards](https://www.gov.uk/government/publications/framework-for-developing-uk-sustainability-reporting-standards/framework-and-terms-of-reference-for-the-development-of-uk-sustainability-reporting-standards#section-a-overview-of-the-uk-framework)
+:::
+
+
+### US
+
+- Climate-related disclosure for investors
+
+:::{.notes}
+In March 2024, the U.S. Securities and Exchange Commission (SEC) released a final rule, Enhancement and Standardization of Climate-Related Disclosures for Investors, which, requires certain companies to disclose, as part of financial reporting: material climate-related risks, GHG emissions, and any climate-related targets or goals.
+
+To facilitate investors' assessment of certain climate-related risks, the final rule requires disclosure of the financial statement effects of severe weather events and other natural conditions including, for example, costs and losses.
+
+On April 4, the SEC paused the implementation of its climate disclosure rules after being sued by 25 states and other entities. The SEC said it has exercised its discretion to stay the final rule pending a review in the Eighth Circuit U.S. Court of Appeals.
+
+The final rule was scheduled to become effective May 28, 2024; however, the SEC has voluntarily stayed the rule's effective date pending judicial review. The mandatory compliance dates depend on when the legal challenges are resolved.   
+:::
+
+:::{.callout-note}
+## Resource
+[Market Developments Around Climate-Related Financial Disclosures](https://www.epa.gov/climateleadership/market-developments-around-climate-related-financial-disclosures#:~:text=In%20March%202024%2C%20the%20U.S.,emissions%2C%20and%20any%20climate%2Drelated)
+:::
+
+::::
+
+
+
+## The alignment between TNFD recommendations and other disclosure frameworks{.smaller}
+
+TNFD indicators and metrics are aligned to global and national policy goals and targets such as: 
+
+- the indicators and metrics in the Global Biodiversity Framework (GBF) measurement framework
+- ISSB IFRS-S1 and S2 standards
+- Task Force on Climate-Related Financial Disclosures (TCFD)
+- Carbon Disclosure Standards Board (CDSB) and Sustainability Accounting Standards Board (SASB), which are now part of the ISSB
+- the European Financial Reporting Advisory Group (EFRAG)
+- Carbon Disclosure Project (CDP) disclosure system
+- Global Reporting Initiative (GRI) Standards 
+
+:::{.callout-note}
+## Resource
+[UNEP FI_Accountability for Nature](https://www.unepfi.org/publications/accountability-for-nature-comparison-of-nature-related-assessment-and-disclosure-frameworks-and-standards/)
+:::
+
+
+
+## Financial Regulation Framework and Nature-related Disclosure
+
+::::{.panel-tabset}
+
+### BCBS
+
+***The Basel Committee on Banking Supervision (BCBS)***
+
+**2021**
+
+- analytical report: [Climate-related risk drivers and their transmission channels](https://www.bis.org/bcbs/publ/d517.htm)
+- analytical report: [Climate-related financial risks – measurement methodologies](https://www.bis.org/bcbs/publ/d518.htm)
+
+:::{.callout-note}
+[BCBS release: two analytical reports](https://www.bis.org/press/p210414.htm)
+:::
+
+**2022**
+
+- [frequently asked questions (FAQs)](https://www.bis.org/bcbs/publ/d543.htm)
+
+:::{.callout-note}
+In 2021, the European Commission has included nature-related risks in the review of the Capital Requirements Directive (CRD6) and of the Solvency II Directive for banks and insurers respectively. 
+:::
+
+**2023**
+
+- public consultation paper on a Pillar 3 [disclosure framework for climate-related financial risks](https://www.bis.org/bcbs/publ/d560.htm)
+
+
+
+### FSB
+
+***The Financial Stability Board (FSB)***
+
+- [stocktake of regulatory and supervisory initiatives associated with the identification and assessment of nature-related financial risks](https://www.fsb.org/2024/07/stocktake-on-nature-related-risks-supervisory-and-regulatory-approaches-and-perspectives-on-financial-risk/)
+
+
+### NGFS
+
+***The Network for Greening the Financial System (NGFS)***
+
+- [the second edition of guide on climate-related disclosure for central banks](https://www.ngfs.net/en/ngfs-conceptual-framework-nature-risks)
+
+::::
+
+
+
+## TNFD Indicators, Metrics and Example Reports{.smaller}
+
+::::{.panel-tabset}
+
+### TNFD Indicators and Metrics
+
+- Dependencies and impacts on nature (9 indicators)
+- Nature-related risks and opportunities (5 indicators)
+
+:::{.callout-note}
+## Definitions of Indicators and Metrics
+
+Indicator: A quantitative or qualitative factor or variable that provides a simple and reliable means to measure performance. An indicator can be measured through one or multiple metrics.
+
+Metric: A system or standard of measurement
+
+[TNFD Recommendations](https://tnfd.global/publication/recommendations-of-the-taskforce-on-nature-related-financial-disclosures/#publication-content)
+:::
+
+
+### Examples
+
+:::{#fig-examples layout-ncol=2}
+
+![GHG Indicators and Metrics](20240926-BIOFIN_ESGsnips/TNFD_indicators_1.png)
+
+![Risk Indicators](20240926-BIOFIN_ESGsnips/TNFD_indicators_2.png)
+
+:::
+
+### Reports
+
+- ecosystem service company report: [An illustrative example of integrated TCFD & TNFD disclosures](https://tnfd.global/wp-content/uploads/2023/09/Forico_Illustrative_Example_of_Integrated_TNFD_TCFD-Disclosures_FY22.pdf)
+
+- financial institution report: [Example report - ING](https://tnfd.global/knowledge-hub/example-tnfd-reporting/)
+
+::::
+
+
+
+## Nature-related Data Collection
+
+::::::{.panel-tabset}
+
+### ENCORE
+
+- Data type: sector, sub-industry, sovereign/country
+- widely used in macroeconomic studies of nature-related risks, based on sector and industry data
+- can help financial institutions assess their dependencies and impacts at a portfolio level
+
+
+### Data vendors
+
+::::{.columns}
+
+:::{.column width="50%"}
+***Bloomberg***
+
+- Data type: firm-level
+- ESG function
+- mainstream databases such as Refinitiv, [S&P Sustainable 1](https://www.spglobal.com/esg/solutions/esg-scores-data), Sustainalytics
+:::
+
+:::{.column width="50%"}
+![Bloomberg-ESG screening TNFD results](20240926-BIOFIN_ESGsnips/Bloomberg-EQS_ESGscreening_TNFD_1.png)
+:::
+
+::::
+
+::::::
+
+
+
+## Current stage    
+
+- Prepare research regarding nature-related accounting standards and finanacial instruments
+- Work alignment with wp5 on Task5.5 and 6.2 (accounting standards), T5.4 adoption pathways of financial institutions
+
+
+
+## Reseach that contributes to the development of nature-related accounting standards{.smaller}
+
+***Proposed working review paper***
+
+title: A discussion of the landscape of nature related financial reporting standards and metrics 
+
+***Further study***
+
+- Study that chooses an existing risk metric from TNFD framework and assess the impact of disclosure framework on financial risk
+  - potentials:
+    + low risk of failure
+    + may mirror IFRS S1 and S2 standards
+    + IFRS continues to develop sustainability disclosure framework. Nature-related standards will probably be the next one. It might provide the academic contribution to the development of IFRS disclosure by examining the impact of existing TNFD metrics on, say, the performance of an ecosystem service firm
+
+  - barriers:
+    + metric choice
+    + data availability
+    + methodology choosing (e.g.machine learning to forecast)
+
+
+
+
+
+
+
+
+
+
