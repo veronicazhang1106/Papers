@@ -1,0 +1,77 @@
+---
+title: "Draft-Literature review"
+subtitle: "The Relationship Between Corporate Social Performance (CSP) and Corporate Financial Performance (CFP)"
+author: "Veronica Zhang"
+date: today
+date-format: long
+format: 
+  html:
+    theme: minty
+    smooth-scroll: true
+    self-contained: true
+    link-external-icon: true
+    link-external-newwindow: true
+  pdf: 
+    toc: false
+    keep-tex: true
+bibliography: CSP_CFP.bib
+csl: elsevier-harvard.csl
+execute: 
+  eval: true
+  echo: false
+  output: true
+  warning: true
+  error: false
+  include: true
+---
+
+## Introduction and Background
+
+The relationship between Corporate Social Performance (CSP) and Corporate Financial Performance (CFP) has generated extensive debate within academic and business communities. Meta-analyses, such as those by @ALBERTINI2013, @MARGOLIS2001, and @ORLITZKY2003, broadly support a positive association between CSP and CFP, suggesting that firms engaged in socially responsible practices tend to produce better financial outcomes. However, despite this consensus, findings across individual studies remain inconclusive. @BRUNA2022 argue that these inconsistent results stem from theoretical ambiguities, methodological biases (such as issues with sampling, modeling, and endogeneity), and variations in the measurement of both CSP and CFP. This section explores the positive, negative, and context-dependent influences of CSP on CFP, highlighting the diverse findings and identifying the factors that contribute to the ongoing debate.
+
+## Positive Relationship Between CSP and CFP
+
+A body of research supports that CSP positively influences CFP, arguing that socially responsible practices can enhance firm reputation, build customer loyalty, reduce risk, and create financial value. For example, @BEN_LAHOUEL2019 and @BEN_LAHOUEL2021 find that firms with higher CSP experience stronger financial performance, suggesting a mutually reinforcing relationship between social responsibility and profitability. @OIKONOMOU2012 also highlights the risk-mitigating benefits of CSP, reporting that socially responsible firms show lower financial risk, while irresponsible behavior associated with increased risk.
+
+The strategic perspective on CSP is further explored by @DENG2022. Their paper studies Chinese firms and conclude that CSR aligned with business strategy, particularly for firms adopting a “prospector” approach, positively correlates with CFP. This alignment may strengthen the CSP-CFP link by embedding social responsibility within core strategic goals. Similarly, @LIN2020 document that CSR, when combined with robust corporate governance practices, improves a firm’s credit rating. Their findings imply that a company’s social and financial health can benefit mutually through responsible governance and ethical business practices, ultimately leading to higher creditworthiness and potential financial gains.
+
+## Neutral and Negative links
+
+In contrast, some studies challenge the assumption of a positive CSP-CFP relationship, presenting either a neutral or negative link between CSP and CFP. @MCWILLIAMS2000 argue that CSP can sometimes detract from CFP, especially when social initiatives do not align with a firm’s core competencies or are pursued for external rather than intrinsic reasons. @KIM2022 further explore this perspective, finding that ownership structures and limited transparency can lead firms to reduce CSR investment, limiting its impact on financial returns. Specifically, @KIM2022 note that CSR does not contribute to long-term financial performance in opaque firms, suggesting that lower market scrutiny might result in exaggerated CSR efforts that ultimately lack financial merit.
+
+@BREUER2021 provide insights into the role of CEO impact in CSR decision-making, highlighting how powerful CEOs may over-invest in CSR to enhance their own reputations rather than the firm’s long-term financial health. They find that in cases of strong CEO influence, CSR initiatives may be pursued for personal gain, resulting in overinvestment and a subsequent negative impact on firm value. This underscores the potential for misalignment between CSR intentions and financial outcomes when CSR is motivated by management incentives rather than corporate strategy.
+
+## Factors Influencing the CSP-CFP Relationship
+
+The CSP-CFP relationship is influenced by various internal and external factors, including firm characteristics, governance structures, and industry context. Previous studies indicate that factors like firm size, leverage, profitability, and growth potential are critical determinants that can affect the level and impact of CSR activities [@DUPIRE2018;@WADDOCK1997]. @LIANG2022 demonstrate that CSR positively impacts productivity in Chinese firms, particularly in private and high-tech sectors. These studies highlight the impact of the factors can vary depending on contextual variables such as industry type and market conditions.
+
+Governance structures and managerial factors also play crucial roles. For instance, @BREUER2021 suggest that CEO power can intensify CSR involvement, sometimes at the cost of financial value when CSR strategies are pursued for individual reputation. @NEUBAUM2006 add that long-term ownership by foreign and institutional investors is positively associated with CSR performance, suggesting that stakeholder structure can drive or hinder CSP initiatives. Additionally, @YANG2019 use critical mass theory to argue that female board directors can influence CSR outcomes, nevertheless, their impact depends on factors such as age and role, rather than simply their presence.
+
+## Challenges in Methodologies and Measurement
+
+Methodological challenges complicate the study of CSP and CFP, particularly issues related to endogeneity, sample selection, and measurement inconsistencies. @BRUNA2022 provide a critical review of these challenges, emphasizing that inconsistent findings across studies may stem from heterogeneity in sampling methods, model specifications, and the operationalization of CSP. These issues lead to a fragmented understanding of the CSP-CFP link, as studies using different samples or measurement approaches generate varied results. Measurement of CSP varies across studies, creating difficulties in drawing general conclusions. Inconsistent or imprecise indicators of CSP and CFP make cross-study comparisons challenging, reducing the robustness of findings and highlighting a need for standardized measures.
+
+## Conclusion and Future Directions (outlines)
+
+- The relationship between CSP and CFP remains a complex and context-dependent issue. 
+- While a substantial amount of evidence supports a positive link, findings vary depending on firm-specific characteristics, governance, and methodological considerations. 
+- Future directions
+  + addressing methodological issues like endogeneity and sample selection biases
+  + developing standardized measures for CSP and CFP
+  + exploring the conditions under which CSP translates into CFP
+
+## Reference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
