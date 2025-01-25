@@ -1,0 +1,235 @@
+---
+title: "Literature Review-Nature-related Financial Reporting Regulation"
+subtitle: "The Impcat on Financial Institutions"
+date: today
+dateformat: long
+author: 
+  - name: Ying (Veronica) Zhang
+    email: veronica.zhang@qub.ac.uk
+    affiliations: 
+      - id: qbs
+        name: Queen's University, Belfast
+        department: Queen's Business School
+        address: Belfast, UK
+    attributes:
+      corresponding: true
+  - name: Lisa Sheenan
+    email: lisa.sheenan@ucd.ie
+    affiliations: 
+      - id: ucd
+        name: University College Dublin
+        department: UCD College of Business
+        address: Dublin, Ireland
+  - name: Fearghal Kearney
+    email: f.kearney@qub.ac.uk
+    affiliations: 
+      - ref: qbs
+    note: Dr. Fearghal Kearney is a reader at Queen's Business School, Queesn't Universty Belfast, and work for the BIOFIN-EU project with Dr. Ying Zhang.   
+
+abstract: |
+  This review explores the growing importance of nature-related financial disclosure standards, such as those proposed by the Task Force on Nature-related Financial Disclosures (TNFD) and IFRS S1 and S2, and their impact on financial institutions. The review highlights how these standards influence risk management, investment strategies, and regulatory compliance in the financial sector. This review examines how financial institutions integrate nature-related disclosures into their operations, focusing on the identification and management of physical and transition risks, capital allocation, and stress testing. The review also addresses the challenges institutions face, such as limited data availability, the complexity of measuring ecosystem-related risks, and gaps in expertise. The review concludes that while nature-related financial disclosures are still evolving, they represent a critical shift towards integrating environmental sustainability into financial decision-making, with significant implications for the future of global financial markets.
+keywords: 
+  - nature-related financial disclosure
+  - IFRS S1 and S2
+  - sustainable finance
+  - climate change
+bibliography: review.bib
+csl: elsevier-harvard.csl
+format: 
+  elsevier-pdf: 
+    keep-tex: true
+    journal: 
+      name: Financial Research Letters
+      cite-style: authoryear
+execute: 
+  eval: true
+  echo: false
+  output: true
+  warning: false
+  error: false
+  include: true
+---
+
+## Introduction
+
+Outline that the review focuses on how financial institutions respond to nature-related financial disclosure standards and the implications of these standards on their operations.
+
+
+
+## Overview of nature-related financial disclosure standards
+
+### Nature-related disclosure framework
+
+#### EU Taxonomy
+
+The Taxonomy is primarily a classification system for economic activities. The EU Taxonomy’s definitions and rules determine which economic activities are environmentally sustainable. 
+
+The Taxonomy was created to address greenwashing. However, the Regulation also places new Taxonomy linked disclosure obligations on companies and on financial market participants.
+
+The Taxonomy requires certain entities to disclose information concerning the degree of alignment of their activities with the Taxonomy. This is achieved by amending the disclosure requirements in the EU’s Non-Financial Reporting Directive (NFRD) and the Sustainable Finance Disclosure Regulation (SFDR).
+
+
+#### Task Force on Nature Related Financial Disclosures (TNFD)
+
+Task Force on Nature-Related Financial Disclosures (TNFD), as mentioned in Task 6.2, takes its inspiration and approach from the 
+Task Force on Climate-Related Financial Disclosures (TCFD) and builds on the significant developments in sustainability corporate reporting since the release of the TCFD’s recommendations in 2017. The International Sustainability Standards Board (ISSB), the GRI and 
+other standards and reporting organisations have worked closely with the Taskforce as knowledge partners.
+
+The TNFD recommendations have been designed to be consistent with the language and structure of both the TCFD and ISSB. The TNFD recommendations retain all four pillars of the TCFD, as do the ISSB’s IFRS Standards’ and the jurisdictional regulations of the EU’s Corporate Sustainability Reporting Directive (CSRD). The TNFD replicates all 11 TCFD recommended disclosures for nature-related issues, only adding additional recommended disclosures. 
+
+The TNFD recommendations align with the global policy goals and targets of the Kuming-Montreal Global Biodiversity Framework (GBF), agreed by almost 200 countries in December 2022, and enable corporate reporting as required by Target 15 of the GBF.
+
+The TNFD recommendations might be the most frequently employed reporting framework in our research.
+
+
+#### ISSB Sustainability Disclosure Framework - IFRS S1 and S2
+
+As part of the IFRS foundation, the International Sustainability Standards Board (ISSB) as a sister board to the IASB (International Accounting Standards Board). The ISSB is responsible for developing IFRS Sustainability Disclosure Standards, to provide a global baseline of sustainability disclosures to further inform economic and investment decisions.
+
+The ISSB was launched by the IFRS Foundation at COP26 with the aim of improving the consistency and quality of sustainability reporting across the globe, by matching the importance of sustainability reporting with the current regulations around financial reporting.
+
+The ISSB has international support and is backed by the G7, G20, the International Organization of Securities Commissions (IOSCO) and the Financial Stability Board, amongst others. 
+
+IFRS S1 and IFRS S2 are issued by the International Sustainability Standards Board (ISSB), to improve trust and confidence in company disclosures about sustainability to inform investment decisions.
+
+IFRS S1 provides a set of disclosure requirements designed to enable companies to communicate to investors about the sustainability-related risks and opportunities they face over the short, medium and long term, and can be used in conjunction with any accounting requirements (e.g. US GAAP).  IFRS S2 sets out specific climate-related disclosures and is designed to be used with IFRS S1. 
+
+Both fully incorporate the recommendations of the Task Force on Climate-related Financial Disclosures (TCFD). 
+
+
+
+### National and regional sustaianblity disclosure frameworks
+
+#### EU
+
+In the EU, the Sustainable Finance Disclosure Regulation (SFDR) has been introduced in 2019. In January 2023, the Corporate Sustainability Reporting Directive (CSRD) has entered into force and the first set of companies are expected to disclose against the 
+European Sustainability Reporting Standards (ESRS) in 2024. 
+
+The Sustainable Finance Disclosure Regulation (SFDR) is a European Union regulation designed to elevate transparency in sustainable investments. Specifically, it mandates that Financial Market Participants (FMPs) and Financial Advisors (FAs) disclose information pertaining to environmental, social, and governance (ESG) activities. These disclosures are required at both the entity level and the product level.
+
+The Corporate Sustainability Reporting Directive (CSRD) is the European Union's legislative framework, mandated to oversee sustainability reporting. CSRD aims to bring more coherence and uniformity to the manner in which companies disclose their ESG impacts. This extends not only to the activities of the companies themselves but also implicates their entire value chains.
+
+The CSRD introduces the European Sustainability Reporting Standards (ESRS). The ESRS aims to provide specific guidelines and standards for ESG reporting under the CSRD. 
+
+The CSRD and the SFDR are two complementary regulations that aim to improve transparency and accountability in ESG matters. The CSRD requires large companies to report on their sustainability performance against the EU Taxonomy, while the SFDR requires financial market participants to disclose how their products align with the EU Taxonomy.
+
+The EU Taxonomy acts as a pivotal classification system for demarcating environmentally sustainable economic activities that is applied within the CSRD and SFDR.
+
+#### UK
+
+The mandatory Climate-related Financial Disclosure Regulations were made on 17 January 2022 and apply to reporting for financial years starting on or after 6 April 2022 in the UK.
+
+In September 2024, the UK government’s framework to create UK Sustainability Reporting Standards (UK SRS) released information on assessing and endorsing the global corporate reporting baseline of IFRS Sustainability Disclosure Standards.
+
+The UK government laid plans to establish a framework to assess the suitability of IFRS S1 and IFRS S2 for endorsement in the UK.
+
+If this process concludes with an affirmative endorsement decision, it would result in the creation of the first two UK Sustainability Reporting Standards (SRS), which would be based upon IFRS S1 and IFRS S2. The UK government aims to make endorsement decisions on the first two standards by Quarter 1 2025 and these standards will form part of a wider Sustainability Disclosure Reporting framework led by HM Treasury. 
+
+The Sustainability Disclosure Requirements (SDR) regime is the UK’s flagship policy to drive decision-useful information on sustainability across the economy. The requirements will cover: 
+
+- Corporate disclosures about how businesses manage their sustainability-related risks and opportunities, comprising UK Sustainability Disclosure Standards based on the International Sustainability Standards Board (ISSB) Standards and transition planning disclosure requirements. These will be introduced by the Financial Conduct Authority (FCA) for listed companies and the Department for Business and Trade for private companies. 
+- Asset manager and asset owner disclosures about how firms take sustainability into account when managing investments on behalf of clients.
+- Additional product-level disclosures for asset managers about the sustainability credentials and sustainability performance of their investments.
+
+#### US
+
+In March 2024, the U.S. Securities and Exchange Commission (SEC) released a final rule, Enhancement and Standardization of Climate-Related Disclosures for Investors, which, requires certain companies to disclose, as part of financial reporting: material climate-related risks, GHG emissions, and any climate-related targets or goals.
+
+To facilitate investors' assessment of certain climate-related risks, the final rule requires disclosure of the financial statement effects of severe weather events and other natural conditions including, for example, costs and losses.
+
+On April 4, the SEC paused the implementation of its climate disclosure rules after being sued by 25 states and other entities. The SEC said it has exercised its discretion to stay the final rule pending a review in the Eighth Circuit U.S. Court of Appeals.
+
+The final rule was scheduled to become effective May 28, 2024; however, the SEC has voluntarily stayed the rule's effective date pending judicial review. The mandatory compliance dates depend on when the legal challenges are resolved.
+
+- Key areas of disclsoure: the core components that institutions are expected to disclose, such as dependencies, impact, physical risk, transition risk, opportunities
+
+
+
+## ESG and Banks
+
+### Theoretical Foundation
+
+The relationship between environmental, social, and governance (ESG) reporting and financial institutions has garnered increasing scholarly attention, driven by global sustainability challenges. This section synthesizes theoretical frameworks that explain how and why ESG reporting influences financial institutions’ operations, decision-making, and market outcomes. Four interconnected theoretical streams provide the foundation: organizational theories, economic theories, institutional theory, and emerging frameworks such as natural capital and double materiality.
+
+#### Organizational Theories
+
+Organizational theories, particularly stakeholder theory and legitimacy theory, highlight the institutional motivations and external pressures driving ESG reporting practices.  Stakeholder theory, developed by @FREEMAN1984 and expanded by subsequent scholars, underscores the need for organizations to address the interests of all stakeholders, not just shareholders. Building on this, @MITCHELL1997 proposed the theory of stakeholder salience emphasizing understanding why and how managers prioritize certain stakeholders, rather than prescribing whom they should prioritize. Their theory provides tools to identify stakeholder types via a typology and explain managerial responses through the concept of salience, which assesses stakeholders' legitimacy, power, and urgency. This typology offers a framework for financial institutions to navigate competing stakeholder interests effectively. @DONALDSON1995 provided theoretical justification for stakeholder theory, emphasizing its descriptive, instrumental, and normative validity in explaining corporate behavior. @ROBERTS1992 conducts an arly application of stakeholder theory to explain corporate social responsibility disclosure. The study finds that measures of stakeholder power, strategic posture, and economic performance are significantly associated with levels of corporate social disclosure. 
+
+Legitimacy theory, foundationally developed by @SUCHMAN1995, identifies three primary forms of legitimacy[^01]—pragmatic, moral, and cognitive—that organizations seek to maintain. @DEEGAN2002 applied this framework to environmental and social disclosures, demonstrating how these practices reinforce an organization's legitimacy. 
+
+In the context of financial institutions, empirical studies show that ESG reporting is often used to satisfy stakeholder demands and enhance legitimacy. @THOMPSON2004 examines how banks respond to environmental stakeholders through reporting practices. Their findings reveal that bankers value annual reports for assessing corporate environmental impact, despite their limitations, and express some interest in expanded environmental disclosures. However, their focus primarily aims at safeguarding loans. Similarly, @SCHOLTENS2009 analyze how international banks balance different stakeholder interests through Corporate Social Resbosibility (CSR) reporting, while @CARNEVALE2014 test the direct effects of the sustainability report on stock price in European markets, demonstrating that sustainability reports positively influence stock prices by signaling organizational compliance with evolving norms.
+
+#### Economic Theories
+
+Economic theories, particularly information asymmetry and agency theory, explain how ESG reporting enhances market efficiency and reduces capital costs. @JENSEN1976 established the foundational agency theory framework, explaining the conflicts of interest between principals (shareholders) and agents (managers). This study lays the groundwork for understanding how ESG reporting can mitigate agency costs by aligning stakeholder interests. @AKERLOF1970 work on Information Asymmetry further explains how unequal information among market participants creates inefficiencies. @HART1987 provide a foundation for modern contract theory and influence the theory of the firm and organizational economics. This paper develops the principal-agent model, and demonstrate how disclosure requirements can act as screening devices. @GRAY1996 provide a theoretical framework for understanding the role of corporate social and environmental reporting in addressing information asymmetry and enhancing accountability. Applying these theories, studies have demonstrated that ESG disclosure reduces information gaps and lowers agency costs, thereby enhancing market efficiency. For instance, @DHALIWAL2011 and @ELGHOUL2011 find firms that initiate CSR disclosure and have superior CSR performance (relative to their industry peers) experience a subsequent reduction in their cost of equity capital, and attract more dedicated institutional investors and analyst coverage. Moreover, @CUI2018 observed that CSR engagement is inversely associated with reputational risk, largely due to reduced information asymmetry. 
+
+#### Institutional Theory
+
+Institutional theory explains the standardization and diffusion of reporting practices. @DIMAGGIO1983 identify three mechanisms driving institutional isomorphism: Coercive isomorphism, Mimetic isomorphism and Normative isomorphism. Their foundational study develops a theoretical framework explaining how these mechanisms operate within organizational fields - recognized areas of institutional life where organizations interact under similar pressures. This framework is valuable in understanding the standardization and diffusion of reporting practices across organizations. Coercive isomorphism explains how regulatory requirements and pressure from stakeholders drive adoption of standardized reporting formats. Mimetic isomorphism illuminates why organizations copy "best practice" reporting methods from industry leaders during periods of uncertainty. Normative isomorphism shows how professional networks and training lead to similar reporting approaches across organizations. Empirical research highlights the importance of institutional pressures, including coercive, normative, and mimetic forces, in driving firms to conform to ESG expectations [@DELMAS2004; @HIGGINS2014; @BEBBINGTON2018; @CHRISTENSEN2021]. 
+
+#### Emerging Theoretical Frameworks
+
+Emerging theoretical frameworks around natural capital and double materiality offer novel perspectives on integrating environmental considerations into financial decision-making. Natural capital theory, as articulated by @DASGUPTA2021 and @DAILY2009, emphasizes the valuation of biodiversity and natural capital, with implications for financial modeling [@ATKINSON2014]. @ECCLES2014 provide a theoretical foundation for integrated reporting,  which aligns closely with double materiality. The concept of "double-materiality" was first formally proposed by the European Commission [@EC2019] in Guidelines on Non-financial Reporting: Supplement on Reporting Climate-related Information published in June 2019. It encourages a company to judge materiality from two perspectives 1) “the extent necessary for an understanding of the company’s development, performance and position” and “in the broad sense of affecting the value of the company”; 2) environmental and social impact of the company’s activities on a broad range of stakeholders. 
+
+[^01]: Legitimacy is a generalized perception or assumption that the actions of an entity are desirable, proper, or appropriate within some socially constructed system of norms, values, beliefs, and definitions [@GINZEL2004; @NEILSEN1987; @PERROW1970].
+
+ESG disclosure and reporting has a positive influence on a company's financial performance and risk. ESG reporting is not merely a compliance exercise but a strategic imperative for financial institutions.
+
+
+### Firm Value and Performance
+
+Stakeholder theories [see @FREEMAN1984; @DEEGAN2002] suggest that when organizations incorporate environmental, social, and governance (ESG) practices into their long-term strategic planning, they gain competitive advantages by addressing the needs of various groups - from employees and customers to government bodies and community members. This approach recognizes that business success is linked to creating value for all stakeholders, not just shareholders. In contrast, the trade-off hypothesis or traditionalist view [see @FRIEDMAN2007] suggests ESG practices negatively impact financial performance by increasing costs, harming corporate performance, and reducing competitive advantage. Scholars argue that focusing on social and environmental goals diverts managers from maximizing shareholder value. Similarly, satisfying non-shareholder stakeholders may hinder profit maximization and value creation for owners and managers[@GALANT2017].
+
+Empirical studies on the relationship between ESG engagement and financial performance have provided conflicting findings. Drawing from empirical analysis using MSCI ESG STATS database ratings, @CORNETT2016 examine the relationship between the US commercial banks' corporate social responsibility (CSR) practices and financial performance. The study reveals that larger banks, despite facing criticism for profit-focused practices leading to the crisis, demonstrate consistently higher CSR strengths and concerns. Post-2009, these institutions showed marked improvement with increased CSR strengths and decreased concerns. Similarly, studies such as @CARNEVALE2014, @SHEN2016 and @BUALLAY2021 demonstrate banks's engagement in CSR activities can improve the financial performance. While @FERRERO2016 find a nonlinear relationship between ESG and financial performance employing listed companies in Europe. Moreover, @BUALLAY2023 investigate the effct of sustainability reporting on bank’s performance (operational, ﬁnancial and market) in 7 regions that include 60 countries over the period 2008–2017. They find the negative relationship between ESG disclosures and banks' operational performance (ROA, ROE), and market performance (Tobin’s Q). They argue that sustainability reporting may have negative impact on banks' asset utilization, in line with the trad-off theory [see @LEE2009].
+
+
+### Bank Risk 
+
+Despite growing scholarly attention to the link between CSR and bank performance, empirical research examining its influence on risk exposure within financial institutions remains limited. The existing literature primarily focuses on individual bank risk metrics. A study by @GANGI2019 examine 142 banks across 35 countries and find that stronger environmental engagement correlates with lower risk profiles as measured by Z-scores [see @LAEVEN2009]. Similarly, @SCHOLTENS2019 report a modest negative relationship between sustainability practices and standalone risk measures among European banks. Aligning with stakeholder theory, @DI_TOMMASO2020 demonstrate that higher ESG scores slightly curbed risk-taking among European banks (2007–2018), though this relationship was mediated by board composition factors including size, independent director presence, and gender diversity. Further evidence from @CHIARAMONTE2022 demonstrate that both aggregate ESG scores and individual pillars enhanced bank stability during financial stress periods, with longer ESG disclosure histories amplifying these stabilizing effects. Expanding geographically, @NEITZERT2022 examine 582 international banks (2002–2018), corroborating the risk-mitigating effects of CSR activities on default and portfolio risks, consistent with risk management frameworks. However, their findings revealed heterogeneity across ESG pillars: environmental (E) initiatives exhibited the strongest and most consistent risk-reduction outcomes, whereas social (S) and governance (G) dimensions yielded less definitive results.
+
+Academic research on the relationship between systemic financial risk and ESG factors remains limited, with existing studies examining each of the three E, S and G pillars respectively. Regarding environmental (E) factors, @ESRB2016 points that an unanticipated rapid green transition could significantly impact asset values, with carbon-intensive investments facing declining profitability while low-carbon assets appreciate. In terms of governance (G) factors, @ANGINER2018 present compelling evidence that shareholder-friendly corporate governance structures correlate with increased bank systemic risk, as measured by Marginal Expected Shortfall (MES)[@ACHARYA2017] and SRISK metrics [@BROWNLEES2017].This relationship appears particularly pronounced for larger banks, potentially due to too-big-to-fail considerations, and is amplified in jurisdictions with more generous financial safety nets. Their findings derive from analyses of both U.S. banks (1990-2014) and international banks (2004-2008), suggesting the robustness of this relationship across different contexts and time periods.  
+
+Using qualitatlive research method, @KUHN2022 investigates sustainable finance disclosures and initiatives in Germany. They find that ESG disclosures enable financial institutions to identify exposure to sectors with high dependency on vulnerable ecosystems. Disclosing these dependencies improves transparency and helps institutions avoid investments in activities contributing to ecological degradation such as deforestation-linked loans. Their stduy proposes integrating natural capital valuation into credit risk assessments to account for "hidden" risks. Case studies demonstrate that institutions adopting such frameworks reduce exposure to stranded assets and regulatory penalties.
+
+
+### Investment Strategy and Portfolio Alignment
+
+@DEMETRIADES2025 investigate lending patterns between major banks and fossil fuel companies from 2001-2021 using global syndicated loan data. They find a complex dynamic where banks recognize and price in climate risks through higher interest rates and shorter loan terms, yet simultaneously increase loan volumes to brown firms. The findings suggest that regulatory pressure, particularly in Europe and the US, has led to more stringent lending policies, though not necessarily reduced lending volumes.
+
+The research indicates that ESG reporting and compliance have a significant impact on the financial performance and risk management of financial institutions. Regulatory pressure is driving adoption of ESG reporting, but the focus should be on improving ESG outcomes rather than just compliance.
+
+
+### Double Materiality
+
+@ARAS2024 investigates the SDGs with ESG indicators through a double materiality perspective for 1888 companies from the OECD fnancial institutions. The study shows how commercial banks can identify and prioritize the SDGs and targets and how sustainable practices at the 
+corporate level can contribute to achieving these global goals by adopting a sound approach. 
+
+
+
+## Reference
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
