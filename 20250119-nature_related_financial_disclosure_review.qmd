@@ -34,7 +34,6 @@ keywords:
   - sustainable finance
   - climate change
 bibliography: review.bib
-csl: elsevier-harvard.csl
 format: 
   elsevier-pdf: 
     keep-tex: true
@@ -56,94 +55,119 @@ Outline that the review focuses on how financial institutions respond to nature-
 
 
 
-## Overview of nature-related financial disclosure standards
+## Overview of Nature-related Financial Disclosure Frameworks 
 
-### Nature-related disclosure framework
+### Evolution of Nature-Related Disclosure Frameworks
 
-#### EU Taxonomy
+The global landscape of nature-related financial disclosures has undergone a significant transformation over the past decade, transitioning from fragmented voluntary initiatives to increasingly robust, jurisdictionally mandated frameworks. This evolution reflects growing recognition of nature-related risks as material to financial stability, coupled with regulatory efforts to combat greenwashing and harmonize reporting standards. Below, we outline key frameworks driving this shift, with a focus on their progression toward mandatory adoption.
 
-The Taxonomy is primarily a classification system for economic activities. The EU Taxonomy’s definitions and rules determine which economic activities are environmentally sustainable. 
+#### Global Frameworks
 
-The Taxonomy was created to address greenwashing. However, the Regulation also places new Taxonomy linked disclosure obligations on companies and on financial market participants.
+- **Task Force on Nature-Related Financial Disclosures (TNFD)**
 
-The Taxonomy requires certain entities to disclose information concerning the degree of alignment of their activities with the Taxonomy. This is achieved by amending the disclosure requirements in the EU’s Non-Financial Reporting Directive (NFRD) and the Sustainable Finance Disclosure Regulation (SFDR).
+Launched in June 2021 and finalized in September 2023, the TNFD builds on the legacy of the Task Force on Climate-Related Financial Disclosures (TCFD) by adapting its four-pillar structure — governance, strategy, risk and impact management, and metrics and targets — to address nature-specific risks. While the TCFD (2017) laid the groundwork for voluntary climate disclosures, the TNFD expands this model to include biodiversity loss, water security, and ecosystem degradation [see @TNFD2023]. The framework’s alignment with the Kunming-Montreal Global Biodiversity Framework (GBF) is codified in Target 15, which requires corporations to “monitor, assess, and transparently disclose their risks, dependencies, and impacts on biodiversity” by 2030 [@CBD2023]. This positions the TNFD as a critical tool for meeting international commitments.
 
+While the TNFD remains voluntary, its design facilitates regulatory adoption. For example, France’s Energy and Climate Law (2023)[^France]  mandates TNFD-aligned reporting for financial institutions, citing the framework’s “robust methodology for assessing portfolio exposure to biodiversity risks”. Similarly, Brazil’s Central Bank integrates TNFD principles into its sustainability guidelines, emphasizing “location-specific impacts on biomes such as the Amazon” [@STUSSI2024].
 
-#### Task Force on Nature Related Financial Disclosures (TNFD)
+The TNFD Enhances the scope by adding 14 new disclosure recommendations to the TCFD’s original 11, emphasizing location-specific impacts, value chain dependencies, and engagement with Indigenous communities. Its LEAP approach (Locate, Evaluate, Assess, Prepare) provides a standardized methodology for assessing nature-related risks, including for banks to map portfolio exposures [see @TNFD2023LEAP].
 
-Task Force on Nature-Related Financial Disclosures (TNFD), as mentioned in Task 6.2, takes its inspiration and approach from the 
-Task Force on Climate-Related Financial Disclosures (TCFD) and builds on the significant developments in sustainability corporate reporting since the release of the TCFD’s recommendations in 2017. The International Sustainability Standards Board (ISSB), the GRI and 
-other standards and reporting organisations have worked closely with the Taskforce as knowledge partners.
+- **ISSB Sustainability Disclosure Standards (IFRS S1 & S2)**
 
-The TNFD recommendations have been designed to be consistent with the language and structure of both the TCFD and ISSB. The TNFD recommendations retain all four pillars of the TCFD, as do the ISSB’s IFRS Standards’ and the jurisdictional regulations of the EU’s Corporate Sustainability Reporting Directive (CSRD). The TNFD replicates all 11 TCFD recommended disclosures for nature-related issues, only adding additional recommended disclosures. 
+The International Sustainability Standards Board (ISSB), established in 2021 at COP26, aims to unify global sustainability reporting through its IFRS S1 (general sustainability disclosures) and IFRS S2 (climate-specific disclosures). IFRS S1 mandates that sustainability disclosures be “integrated into financial statements to ensure comparability and reliability” [@IFRS2023S1], while IFRS S2 requires granular climate-related risk disclosures, including physical and transition risks [@IFRS2023S2]. These standards consolidate the TCFD’s legacy into a mandatory global baseline, signaling a shift toward mandatory, investor-grade disclosures.
 
-The TNFD recommendations align with the global policy goals and targets of the Kuming-Montreal Global Biodiversity Framework (GBF), agreed by almost 200 countries in December 2022, and enable corporate reporting as required by Target 15 of the GBF.
+The ISSB standards, endorsed by global organizations such as the G7, G20, and IOSCO, are gaining rapid international adoption. Several jurisdictions, including the UK, Japan, and Singapore, have already announced plans to mandate alignment with IFRS S1 and S2 by 2025. For instance, the UK government’s 2023 policy paper confirms its intent to adopt ISSB standards as the foundation for its UK Sustainability Reporting Standards (UK SRS), with mandatory disclosures for listed companies by 2025.[^UK]
 
-The TNFD recommendations might be the most frequently employed reporting framework in our research.
+A key feature of these standards is their integration with financial reporting. Unlike standalone ESG frameworks, IFRS S1 and S2 require sustainability disclosures to be included within annual financial statements, ensuring they are subject to the same level of scrutiny and rigor as financial data. For banks, this means that nature-related risks—such as loans linked to deforestation—must be disclosed alongside traditional financial risks.
 
+Additionally, the ISSB has collaborated with the Taskforce on Nature-related Financial Disclosures (TNFD) to enhance interoperability. This collaboration enables institutions to report both climate and nature-related risks under a unified, compatible structure, simplifying the reporting process while ensuring comprehensive risk assessment [see @TNFD2024].
 
-#### ISSB Sustainability Disclosure Framework - IFRS S1 and S2
+[^France]: see <https://climate-laws.org/document/law-no-2023-973-of-october-23-2023-relating-to-the-green-industry_71cd>
 
-As part of the IFRS foundation, the International Sustainability Standards Board (ISSB) as a sister board to the IASB (International Accounting Standards Board). The ISSB is responsible for developing IFRS Sustainability Disclosure Standards, to provide a global baseline of sustainability disclosures to further inform economic and investment decisions.
+[^UK]: see <https://www.gov.uk/government/publications/sustainability-disclosure-requirements-implementation-update-2024>
 
-The ISSB was launched by the IFRS Foundation at COP26 with the aim of improving the consistency and quality of sustainability reporting across the globe, by matching the importance of sustainability reporting with the current regulations around financial reporting.
+#### Regional Frameworks
 
-The ISSB has international support and is backed by the G7, G20, the International Organization of Securities Commissions (IOSCO) and the Financial Stability Board, amongst others. 
+- **European Union**
 
-IFRS S1 and IFRS S2 are issued by the International Sustainability Standards Board (ISSB), to improve trust and confidence in company disclosures about sustainability to inform investment decisions.
+The EU has pioneered mandatory nature-related disclosures through three interlinked regulations:
 
-IFRS S1 provides a set of disclosure requirements designed to enable companies to communicate to investors about the sustainability-related risks and opportunities they face over the short, medium and long term, and can be used in conjunction with any accounting requirements (e.g. US GAAP).  IFRS S2 sets out specific climate-related disclosures and is designed to be used with IFRS S1. 
+  + *EU Taxonomy Regulation (2020)*
 
-Both fully incorporate the recommendations of the Task Force on Climate-related Financial Disclosures (TCFD). 
+The EU Taxonomy serves as a comprehensive classification system designed to identify environmentally sustainable activities, incorporating strict criteria for biodiversity protection and ecosystem restoration[^Taxonomy]. It requires in-scope entities, including banks, to disclose Taxonomy-aligned revenue, capital expenditures (CapEx), and operating expenditures (OpEx). Failure to comply can result in reputational damage and exclusion from sustainable finance markets, such as the EU green bond market [@EBA2022].
 
+  + *Corporate Sustainability Reporting Directive (CSRD, 2023)*
 
+The Corporate Sustainability Reporting Directive (CSRD) replaces the voluntary Non-Financial Reporting Directive (NFRD), significantly expanding its scope from 11,000 to over 50,000 EU and non-EU companies by 2027. A cornerstone of the CSRD is its “double materiality” approach, which requires companies, including banks, to report on both financial and impact-related risks. This includes the disclosure of risks to ecosystems alongside traditional financial risks.
 
-### National and regional sustaianblity disclosure frameworks
+The CSRD introduces detailed reporting obligations under the European Sustainability Reporting Standards (ESRS), including ESRS E4 (Biodiversity and Ecosystems). ESRS E4 mandates disclosures on several key aspects:
 
-#### EU
+- Dependencies: For example, the reliance on critical resources such as water for operations;
+- Impacts: Such as land degradation linked to lending portfolios;
+- Transition Plans: Strategies to mitigate nature-related risks.
 
-In the EU, the Sustainable Finance Disclosure Regulation (SFDR) has been introduced in 2019. In January 2023, the Corporate Sustainability Reporting Directive (CSRD) has entered into force and the first set of companies are expected to disclose against the 
-European Sustainability Reporting Standards (ESRS) in 2024. 
+Furthermore, ESRS E4 explicitly incorporates metrics from the Taskforce on Nature-related Financial Disclosures (TNFD) for assessing impacts on protected areas, ensuring alignment with established global frameworks [see @EFRAG2022].
 
-The Sustainable Finance Disclosure Regulation (SFDR) is a European Union regulation designed to elevate transparency in sustainable investments. Specifically, it mandates that Financial Market Participants (FMPs) and Financial Advisors (FAs) disclose information pertaining to environmental, social, and governance (ESG) activities. These disclosures are required at both the entity level and the product level.
+  + *Sustainable Finance Disclosure Regulation (SFDR, 2021)*
 
-The Corporate Sustainability Reporting Directive (CSRD) is the European Union's legislative framework, mandated to oversee sustainability reporting. CSRD aims to bring more coherence and uniformity to the manner in which companies disclose their ESG impacts. This extends not only to the activities of the companies themselves but also implicates their entire value chains.
+The Sustainable Finance Disclosure Regulation (SFDR) requires financial institutions to classify investment products based on their sustainability objectives under Articles 6, 8, or 9 and to disclose their alignment with the EU Taxonomy.[^SFDR]
 
-The CSRD introduces the European Sustainability Reporting Standards (ESRS). The ESRS aims to provide specific guidelines and standards for ESG reporting under the CSRD. 
+Under the Do No Significant Harm (DNSH) principle, banks are now obligated to screen investments for activities that may harm biodiversity, such as logging in protected areas. Furthermore, Article 9 of the SFDR mandates comprehensive due diligence to ensure investments do not negatively impact biodiversity, emphasizing the importance of sustainable investment practices.
 
-The CSRD and the SFDR are two complementary regulations that aim to improve transparency and accountability in ESG matters. The CSRD requires large companies to report on their sustainability performance against the EU Taxonomy, while the SFDR requires financial market participants to disclose how their products align with the EU Taxonomy.
+[^Taxonomy]: see <https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/taxonomy-regulation_en>
 
-The EU Taxonomy acts as a pivotal classification system for demarcating environmentally sustainable economic activities that is applied within the CSRD and SFDR.
+[^SFDR]: see <https://finance.ec.europa.eu/sustainable-finance/disclosures/sustainability-related-disclosure-financial-services-sector_en>
 
-#### UK
+- **United Kingdom**
 
-The mandatory Climate-related Financial Disclosure Regulations were made on 17 January 2022 and apply to reporting for financial years starting on or after 6 April 2022 in the UK.
+The UK’s Sustainability Disclosure Requirements (SDR) policy framework, as outlined in HM Treasury’s 2023 roadmap, integrates the ISSB standards while mandating the inclusion of “transition plans aligned with the Paris Agreement and the Global Biodiversity Framework (GBF).”[^UK]
 
-In September 2024, the UK government’s framework to create UK Sustainability Reporting Standards (UK SRS) released information on assessing and endorsing the global corporate reporting baseline of IFRS Sustainability Disclosure Standards.
+A key component of this framework is the development of the UK Sustainability Reporting Standards (UK SRS), which are expected to be finalized by 2025. These standards will adopt ISSB guidelines while incorporating UK-specific requirements, such as transition planning disclosures for high-emitting sectors.
 
-The UK government laid plans to establish a framework to assess the suitability of IFRS S1 and IFRS S2 for endorsement in the UK.
+Mandatory disclosures for listed companies will commence in 2026. Banks will be required to report on financed emissions and nature-related risk exposures, with a particular focus on high-impact sectors such as agriculture and mining. The Financial Conduct Authority (FCA) will enforce these disclosure requirements, ensuring compliance by banks starting in 2026 [see @FCA2023].
 
-If this process concludes with an affirmative endorsement decision, it would result in the creation of the first two UK Sustainability Reporting Standards (SRS), which would be based upon IFRS S1 and IFRS S2. The UK government aims to make endorsement decisions on the first two standards by Quarter 1 2025 and these standards will form part of a wider Sustainability Disclosure Reporting framework led by HM Treasury. 
+The SDR explicitly references the recommendations of the Taskforce on Nature-related Financial Disclosures (TNFD), ensuring consistency with international biodiversity goals and strengthening its alignment with global sustainability frameworks.
 
-The Sustainability Disclosure Requirements (SDR) regime is the UK’s flagship policy to drive decision-useful information on sustainability across the economy. The requirements will cover: 
+- **United States**
 
-- Corporate disclosures about how businesses manage their sustainability-related risks and opportunities, comprising UK Sustainability Disclosure Standards based on the International Sustainability Standards Board (ISSB) Standards and transition planning disclosure requirements. These will be introduced by the Financial Conduct Authority (FCA) for listed companies and the Department for Business and Trade for private companies. 
-- Asset manager and asset owner disclosures about how firms take sustainability into account when managing investments on behalf of clients.
-- Additional product-level disclosures for asset managers about the sustainability credentials and sustainability performance of their investments.
+The U.S. Securities and Exchange Commission’s (SEC) Climate Disclosure Rule (2024) marks the country’s first federal initiative to mandate nature-related disclosures.[^SEC] However, its implementation has been delayed due to ongoing legal challenges.
 
-#### US
+The rule mandates that public companies disclose material climate risks, such as physical risks from severe weather events (e.g., floods), along with Scope 1, 2, and 3 greenhouse gas emissions. Additionally, companies must report costs associated with extreme weather impacts.
 
-In March 2024, the U.S. Securities and Exchange Commission (SEC) released a final rule, Enhancement and Standardization of Climate-Related Disclosures for Investors, which, requires certain companies to disclose, as part of financial reporting: material climate-related risks, GHG emissions, and any climate-related targets or goals.
+While federal efforts face delays, California has taken significant steps with the Climate Corporate Data Accountability Act (SB 253). Effective in 2026, this law requires companies with annual revenues exceeding $1 billion to report Scope 1, 2, and 3 emissions. The legislation emphasizes addressing systemic risks from biodiversity loss within supply chains, indirectly pressuring banks and financial institutions to assess the nature-related risks of their clients.[^California]
 
-To facilitate investors' assessment of certain climate-related risks, the final rule requires disclosure of the financial statement effects of severe weather events and other natural conditions including, for example, costs and losses.
+[^SEC]: see <https://www.sec.gov/rules-regulations/2024/03/s7-10-22#:~:text=The%20final%20rules%20will%20require,of%20operations%2C%20or%20financial%20condition.>
 
-On April 4, the SEC paused the implementation of its climate disclosure rules after being sued by 25 states and other entities. The SEC said it has exercised its discretion to stay the final rule pending a review in the Eighth Circuit U.S. Court of Appeals.
+[^California]: see <https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB253#:~:text=The%20act%20requires%20the%20state,the%20state%20board%2C%20as%20provided.>
 
-The final rule was scheduled to become effective May 28, 2024; however, the SEC has voluntarily stayed the rule's effective date pending judicial review. The mandatory compliance dates depend on when the legal challenges are resolved.
+#### From Voluntary to Mandatory: Key Drivers and Challenges
 
-- Key areas of disclsoure: the core components that institutions are expected to disclose, such as dependencies, impact, physical risk, transition risk, opportunities
+The shift toward mandatory nature-related disclosure frameworks is driven by several key developments, reflecting the growing recognition of environmental risks and the need for harmonized reporting standards. 
 
+- *Recognition of Material Nature-Related Risks*
 
+Increasing awareness of biodiversity loss, ecosystem degradation, and water security as critical threats to financial stability has accelerated the move toward mandatory disclosures. Frameworks like the Taskforce on Nature-related Financial Disclosures (TNFD) emphasize the financial materiality of these risks to corporate and institutional performance. The widespread adoption of the TNFD by over 320 institutions, including major banks and asset managers, underscores the influence of investor demand for transparency and the need to assess portfolio exposures to nature-related risks [@TNFD2023].
+
+- *Global Regulatory Alignment*
+
+The harmonization of sustainability reporting standards, led by initiatives such as the ISSB's IFRS S1 and S2 and the TNFD, promotes consistency and comparability across jurisdictions. These frameworks explicitly reference global commitments like the Kunming-Montreal Global Biodiversity Framework, solidifying their role in supporting international biodiversity and sustainability goals.
+
+- *Integration with Financial Reporting*
+
+Mandates under frameworks such as the ISSB standards [@IFRS2023S1] and the EU’s Corporate Sustainability Reporting Directive (CSRD) require nature-related disclosures to be included in financial statements. This integration enhances the rigor of sustainability reporting, ensuring it is held to the same standards of accuracy and reliability as financial data.
+
+However, this transition also presents significant challenges that must be addressed for effective implementation.
+
+- *Legal and Political Barriers*
+
+Legal and political resistance has hindered the implementation of mandatory disclosures in some jurisdictions. For example, the SEC’s Climate Disclosure Rule in the United States has faced significant legal challenges, delaying its rollout and highlighting the contentious nature of regulatory enforcement in this domain.
+
+- *Complexity of Frameworks*
+
+The proliferation of overlapping frameworks, including the TNFD, ISSB, and various regional regulations, creates challenges for organizations, particularly those operating in multiple jurisdictions. These entities must navigate differing requirements, increasing the complexity and administrative burden of compliance.
+
+- *Data Availability and Granularity*
+
+Effective nature-related disclosure requires detailed and location-specific data, such as ecosystem impacts and value chain dependencies. Many organizations, especially those in sectors with intricate supply chains, face difficulties in accessing or generating the necessary data to meet disclosure requirements.
 
 ## ESG and Banks
 
@@ -155,7 +179,7 @@ The relationship between environmental, social, and governance (ESG) reporting a
 
 Organizational theories, particularly stakeholder theory and legitimacy theory, highlight the institutional motivations and external pressures driving ESG reporting practices.  Stakeholder theory, developed by @FREEMAN1984 and expanded by subsequent scholars, underscores the need for organizations to address the interests of all stakeholders, not just shareholders. Building on this, @MITCHELL1997 proposed the theory of stakeholder salience emphasizing understanding why and how managers prioritize certain stakeholders, rather than prescribing whom they should prioritize. Their theory provides tools to identify stakeholder types via a typology and explain managerial responses through the concept of salience, which assesses stakeholders' legitimacy, power, and urgency. This typology offers a framework for financial institutions to navigate competing stakeholder interests effectively. @DONALDSON1995 provided theoretical justification for stakeholder theory, emphasizing its descriptive, instrumental, and normative validity in explaining corporate behavior. @ROBERTS1992 conducts an arly application of stakeholder theory to explain corporate social responsibility disclosure. The study finds that measures of stakeholder power, strategic posture, and economic performance are significantly associated with levels of corporate social disclosure. 
 
-Legitimacy theory, foundationally developed by @SUCHMAN1995, identifies three primary forms of legitimacy[^01]—pragmatic, moral, and cognitive—that organizations seek to maintain. @DEEGAN2002 applied this framework to environmental and social disclosures, demonstrating how these practices reinforce an organization's legitimacy. 
+Legitimacy theory, foundationally developed by @SUCHMAN1995, identifies three primary forms of legitimacy[^03]—pragmatic, moral, and cognitive—that organizations seek to maintain. @DEEGAN2002 applied this framework to environmental and social disclosures, demonstrating how these practices reinforce an organization's legitimacy. 
 
 In the context of financial institutions, empirical studies show that ESG reporting is often used to satisfy stakeholder demands and enhance legitimacy. @THOMPSON2004 examines how banks respond to environmental stakeholders through reporting practices. Their findings reveal that bankers value annual reports for assessing corporate environmental impact, despite their limitations, and express some interest in expanded environmental disclosures. However, their focus primarily aims at safeguarding loans. Similarly, @SCHOLTENS2009 analyze how international banks balance different stakeholder interests through Corporate Social Resbosibility (CSR) reporting, while @CARNEVALE2014 test the direct effects of the sustainability report on stock price in European markets, demonstrating that sustainability reports positively influence stock prices by signaling organizational compliance with evolving norms.
 
@@ -171,7 +195,7 @@ Institutional theory explains the standardization and diffusion of reporting pra
 
 Emerging theoretical frameworks around natural capital and double materiality offer novel perspectives on integrating environmental considerations into financial decision-making. Natural capital theory, as articulated by @DASGUPTA2021 and @DAILY2009, emphasizes the valuation of biodiversity and natural capital, with implications for financial modeling [@ATKINSON2014]. @ECCLES2014 provide a theoretical foundation for integrated reporting,  which aligns closely with double materiality. The concept of "double-materiality" was first formally proposed by the European Commission [@EC2019] in Guidelines on Non-financial Reporting: Supplement on Reporting Climate-related Information published in June 2019. It encourages a company to judge materiality from two perspectives 1) “the extent necessary for an understanding of the company’s development, performance and position” and “in the broad sense of affecting the value of the company”; 2) environmental and social impact of the company’s activities on a broad range of stakeholders. 
 
-[^01]: Legitimacy is a generalized perception or assumption that the actions of an entity are desirable, proper, or appropriate within some socially constructed system of norms, values, beliefs, and definitions [@GINZEL2004; @NEILSEN1987; @PERROW1970].
+[^03]: Legitimacy is a generalized perception or assumption that the actions of an entity are desirable, proper, or appropriate within some socially constructed system of norms, values, beliefs, and definitions [@GINZEL2004; @NEILSEN1987; @PERROW1970].
 
 ESG disclosure and reporting has a positive influence on a company's financial performance and risk. ESG reporting is not merely a compliance exercise but a strategic imperative for financial institutions.
 
