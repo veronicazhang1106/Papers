@@ -1,6 +1,5 @@
 ---
-title: "Literature Review-Nature-related Financial Reporting Regulation"
-subtitle: "The Impcat on Financial Institutions"
+title: "A Stakeholder-Legitimacy Framework for ESG Disclosure in Banking Under Evolving Regulatory Mandates"
 date: today
 dateformat: long
 author: 
@@ -24,14 +23,32 @@ author:
     email: f.kearney@qub.ac.uk
     affiliations: 
       - ref: qbs
-    note: Dr. Fearghal Kearney is a reader at Queen's Business School, Queesn't Universty Belfast, and work for the BIOFIN-EU project with Dr. Ying Zhang.   
+  - name: Junyu Zhang
+    affiliations: 
+      - id: sbs
+        name: Queen's University, Belfast
+        department: School of Biological Sciences
+  - name: Suma Mani
+    affiliations: 
+      - ref: sbs
+  - name: George Hutchinson
+    affiliations: 
+      - ref: sbs
+  - name: Neil Reid
+    affiliations: 
+      - ref: sbs
+  - name: Paul Brereton
+    affiliations: 
+      - ref: sbs          
 
 abstract: |
-  This review explores the growing importance of nature-related financial disclosure standards, such as those proposed by the Task Force on Nature-related Financial Disclosures (TNFD) and IFRS S1 and S2, and their impact on financial institutions. The review highlights how these standards influence risk management, investment strategies, and regulatory compliance in the financial sector. This review examines how financial institutions integrate nature-related disclosures into their operations, focusing on the identification and management of physical and transition risks, capital allocation, and stress testing. The review also addresses the challenges institutions face, such as limited data availability, the complexity of measuring ecosystem-related risks, and gaps in expertise. The review concludes that while nature-related financial disclosures are still evolving, they represent a critical shift towards integrating environmental sustainability into financial decision-making, with significant implications for the future of global financial markets.
+  The global financial sector is undergoing a transformative shift as nature-related risks, from biodiversity loss to ecosystem degradation, emerge as material threats to economic stability. By reviewing the literature, this study advances a novel Stakeholder-Legitimacy Framework, integrating stakeholder theory, legitimacy theory, and institutional isomorphism to explain how banks’ ESG disclosures emerge from dynamic negotiations between external pressures (e.g., regulators, investors) and strategic legitimacy-seeking behaviors. Key findings reveal that while ESG disclosures mitigate bank-specific risks, conflicting evidence persists on their financial performance impacts. Critical gaps include underexplored transmission effects of regulations through lending networks, inconsistent roles of institutional and state ownership, and tensions between symbolic compliance and substantive action.
 keywords: 
-  - nature-related financial disclosure
+  - ESG disclosure
   - IFRS S1 and S2
-  - sustainable finance
+  - Stakeholder-Legitimacy framework
+  - bank risk
+  - ownership
   - climate change
 bibliography: review.bib
 format: 
@@ -53,10 +70,46 @@ execute:
   include: true
 ---
 
+```{r set up}
+#| label: libraries
+#| output: false
+#| include: false
+
+library(tidyverse)
+library(kableExtra)
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
+library(knitr)
+library(tinytex)
+
+
+```
+
+
 # Introduction
 
-Outline that the review focuses on how financial institutions respond to nature-related financial disclosure standards and the implications of these standards on their operations.
+The global financial system is undergoing a seismic shift as nature-related risks—ranging from biodiversity loss to ecosystem degradation—emerge as material threats to economic stability [@UNEP2023]. Over the past decade, voluntary sustainability frameworks like the Task Force on Climate-related Financial Disclosures (TCFD) have evolved into robust, jurisdictionally mandated systems, driven by regulatory imperatives to combat greenwashing, harmonize reporting standards, and align financial flows with planetary boundaries. Central to this transformation are frameworks such as the Task Force on Nature-Related Financial Disclosures (TNFD), the International Sustainability Standards Board (ISSB), and region-specific regulations like the EU’s Corporate Sustainability Reporting Directive (CSRD) and the UK’s Sustainability Disclosure Requirements (SDR). These frameworks reflect a growing consensus that environmental risks are inextricably linked to financial performance, necessitating disclosures that integrate double materiality—assessing both financial risks to firms and firms’ impacts on ecosystems.
 
+Despite the systemic importance of banks, empirical research on how ESG regulations affect their risk profiles, governance mechanisms, and financial performance remains fragmented. Existing studies disproportionately focus on non-financial firms [e.g. @YOUN2015; @FAVINO2019; @BUALLAY2019; @DYCK2019], leaving critical gaps in understanding banks’ unique intermediation role. For instance, while the TNFD’s LEAP methodology and the ISSB’s IFRS S1 and S2 standards are gaining traction, their sector-specific implications for banking—such as transmission effects through lending networks or the tension between symbolic compliance and substantive action—are underexplored. Theoretical frameworks also remain fragmented, with stakeholder theory, legitimacy theory, and institutional isomorphism often treated in isolation rather than as interconnected drivers of ESG disclosure. This review addresses these gaps by synthesizing global evidence, proposing an integrated theoretical model, and identifying urgent research priorities at the nexus of finance, regulation, and ecological stewardship.
+
+In this study, we advance a novel Stakeholder-Legitimacy Framework [@CAMPBELL2007; @AGUINIS2012] tailored to banks, synthesizing stakeholder theory, legitimacy theory, and institutional isomorphism. This model positions ESG disclosures as dynamic outcomes of external pressures (e.g., regulators, shareholders) and banks’ legitimacy-seeking behaviors, moderated by economic factors (e.g., bank size) and institutional contexts (e.g., ownership structures). We also find the following critical reseach gaps: 
+
+- Ownership Dynamics: The role of institutional and state ownership in shaping ESG outcomes remains inconsistent across studies [@DYCK2019; @RAIMO2020], with concentrated ownership marginalizing minority shareholder influence on CSR practices [@SMITH2022].
+
+- Regulatory Efficacy: Sector-specific analyses of mandatory frameworks (e.g., CSRD, EU Taxonomy) are scarce, particularly their impact on bank risk profiles and governance mechanisms.
+
+- Systemic Risk Implications: The interplay between ESG disclosures and systemic financial stability, especially during regulatory shocks (e.g., rapid green transitions), lacks empirical rigor [@ESRB2016].
+
+Our study contributes to sustainable finance research through three key areas:
+
+- Theoretical Innovation: The Stakeholder-Legitimacy Framework bridges siloed theories, offering a holistic lens to analyze banks’ ESG disclosures as context-dependent processes shaped by stakeholder pressures and legitimacy imperatives.
+
+- Gap-Driven Agenda: By systematizing underexplored research gaps—such as regulatory transmission mechanisms and ownership dynamics—we provide a roadmap for future studies to address banking-specific complexities.
+
+- Policy Relevance: We identify actionable solutions for regulators, including integrating natural capital valuation into stress testing and harmonizing ISSB-TNFD interoperability to mitigate symbolic compliance risks.
+
+The remainder of the literature review is organized as follows: Section II provides an overview of the nature-related financial disclosure frameworks from different dimensions. In Section III, we review the theories underpinning the relationship between ESG disclosure and the banking sector. In Section IV, we propose the integrated Stakeholder-Legitimacy framework applied to the banking industry and review the research gaps. Section V is the conclusion section.      
 
 
 # Overview of Nature-related Financial Disclosure Frameworks 
@@ -84,6 +137,12 @@ The ISSB standards, endorsed by global organizations such as the G7, G20, and IO
 A key feature of these standards is their integration with financial reporting. Unlike standalone ESG frameworks, IFRS S1 and S2 require sustainability disclosures to be included within annual financial statements, ensuring they are subject to the same level of scrutiny and rigor as financial data. For banks, this means that nature-related risks—such as loans linked to deforestation—must be disclosed alongside traditional financial risks.
 
 Additionally, the ISSB has collaborated with the Taskforce on Nature-related Financial Disclosures (TNFD) to enhance interoperability. This collaboration enables institutions to report both climate and nature-related risks under a unified, compatible structure, simplifying the reporting process while ensuring comprehensive risk assessment [see @TNFD2024].
+
+The alignment of IFRS S1 and S2 with relevant ESG disclosure frameworks including TNFD is presented in @fig-IFRS.
+
+![Alignment of IFRS S1 and S2](IFRS_S1S2.jpeg){#fig-IFRS}
+
+
 
 [^France]: see <https://climate-laws.org/document/law-no-2023-973-of-october-23-2023-relating-to-the-green-industry_71cd>
 
@@ -139,9 +198,89 @@ The rule mandates that public companies disclose material climate risks, such as
 
 While federal efforts face delays, California has taken significant steps with the Climate Corporate Data Accountability Act (SB 253). Effective in 2026, this law requires companies with annual revenues exceeding $1 billion to report Scope 1, 2, and 3 emissions. The legislation emphasizes addressing systemic risks from biodiversity loss within supply chains, indirectly pressuring banks and financial institutions to assess the nature-related risks of their clients.[^California]
 
+The summary information of regional ESG regulatory frameworks can be found in @tbl-regional. 
+
 [^SEC]: see <https://www.sec.gov/rules-regulations/2024/03/s7-10-22#:~:text=The%20final%20rules%20will%20require,of%20operations%2C%20or%20financial%20condition.>
 
 [^California]: see <https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240SB253#:~:text=The%20act%20requires%20the%20state,the%20state%20board%2C%20as%20provided.>
+
+
+```{r KableExtra-Regional Table}
+#| label: tbl-regional
+#| tbl-cap: Regional ESG Disclosure Regulations
+#| eval: true
+
+## Create variables
+Region <- c("EU",
+            "EU", 
+            "EU", 
+            "UK", 
+            "US", 
+            "US")
+
+Regulation <- c("EU Taxonomy Regulation", 
+                "Corporate Sustainability Reporting Directive (CSRD)", 
+                "Sustainable Finance Disclosure Regulation (SFDR)", 
+                "Sustainability Disclosure Requirements (SDR)", 
+                "SEC Climate Disclosure Rule", 
+                "Climate Corporate Data Accountability Act (SB 253)")
+
+Year <- c(2020, 
+          2023, 
+          2021, 
+          2023, 
+          2024, 
+          2026)
+
+Key_features <- c("a comprehensiver classification system designed to identify environmentally sustainable activities", 
+                  "'double materiality' approach; ESRS", 
+                  "financial institutions classify investment products based on their sustainability objectives", 
+                  "ISSB-aligned reporting; Transition plans for Paris and GBF; Financed emissions disclosure", 
+                  "Material climate risk disclosure; Scope 1-3 emissions reporting; Extreme weather cost reporting",
+                  "Scope 1-3 emissions reporting for $1B+ revenue firms; Biodiversity risk assessment")
+  
+Scope <- c("Banks and in-scope entities", 
+           "50,000+ EU/non-EU companies by 2027", 
+           "Financial institutions", 
+           "Listed companies (from 2026); High-impact sectors (agriculture, mining)", 
+           "Public companies", 
+           "Large corporations operating in California")
+
+Enforcement <- c("Failure to comply can result in reputational damage and exclusion from sustainable finance markets", 
+                 "Mandatory for EU/non-EU companies", 
+                 "Market exclusion for non-compliance", 
+                 "FCA enforcement starting 2026", 
+                 "Delayed due to legal challenges", 
+                 "California state law enforcement")
+
+Alignment <- c("EU Taxonomy classification system", 
+               "Aligns with IFRS S1 and S2 standards; TNFD metrics", 
+               "Links to EU Taxonomy", 
+               "Aligns with IFRS S1 and S2; References TNFD recommendations", 
+               "N/A", 
+               "Addresses supply chain biodiversity risks")
+  
+## Set up the tibble
+df_region <- tibble(Region, Regulation, Year, Key_features, Scope, Enforcement, Alignment)
+
+kableExtra::kbl(df_region, 
+                booktabs = TRUE) |> 
+  kable_styling(latex_options = c("striped", "scale_down"), 
+                font_size = 11) |> 
+  row_spec(row = 0, bold = TRUE, background = "lightgray", align = "c") |> 
+  column_spec(1, width = "5em") |>     # Region
+  column_spec(2, width = "8em") |>   # Regulation
+  column_spec(3, width = "5em") |>   # Year
+  column_spec(4, width = "12em") |>     # Key_Requirements
+  column_spec(5, width = "8em") |>   # Scope
+  column_spec(6, width = "10em") |>   # Enforcement
+  column_spec(7, width = "10em")  
+  
+  
+
+```
+
+
 
 ### From Voluntary to Mandatory: Key Drivers and Challenges
 
@@ -247,11 +386,9 @@ In the early 2000s, @HOOGHIEMSTRA2000 argues that sustainability reporting resea
 #| label: fig-flowchart
 #| fig-cap: "ESG Disclosure Flowchart"
 
-
 library(DiagrammeR)
 library(DiagrammeRsvg)
 library(rsvg)
-library(knitr)
 
 grViz("
 digraph {
@@ -324,7 +461,27 @@ Ownership structure and regulation can be considered as external influential fac
 
 Publicly listed companies, in order to comply with regulations and to be aligned with industry best practices, as well as to stay attuned to stakeholder pressure and see societal legitimacy, tend to be actively engaged in ESG reporting. @HADDOCK2005 reports that public offering is linked to greater adoption of social reporting practices. Additionally, publicly listed companies tend to disclose more sustainability-related information [@GAMERSCHLAG2011]. The publicly listed ownership structure was primarily examined as a variable in studies conducted before 2015. However, around 2020, publicly listed companies were more commonly used as data samples rather than as a subject of ownership structure analysis [e.g. @SAHASRANAMAM2020; @AMEEN2022; @ALOBAID2024]. In more recent research, institutional shareholding has emerged as a key variable of interest, such as @DYCK2019, @CHEN2020, and @AMEEN2022. Institutional investors are defined as pension funds, insurance companies, banks, sovereign wealth funds, and other institutions that manage and invest funds on behalf of their beneficiaries; they are major players in the global financial markets [@AMEEN2022]. Aligned with agency theory, @SHLEIFER1986 posit that institutional investors, leveraging their significant equity stakes and specialized expertise, closely monitor corporate operations. This oversight helps mitigate agency costs by ensuring management decisions align with shareholder priorities, ultimately promoting more efficient investment practices such as facilitating takeovers. Due to their influential position, institutional investors can shape companies' ESG initiatives by execute the stakeholder pressure on management to disclose greater ESG-related data, aiming to fulfill non-financial goals and bolster both their own and the firms' public image [@DYCK2019; @GARCIA-SANCHEZ2020]. Nevertheless, empirical literature provides inconsistent findings. Some studies indicate that there is a positive association between institutional ownership and ESG performance [@DYCK2019; @CHEN2020; @AMEEN2022; @RAIMO2020]. @ZHOU2019 repots that higher institutional ownership can facilitate firms’ transparency by providing voluntary CSR reports. @ALUCHNA2022 find a negative association between institutional ownership and disclosure of the social performance.  @QU2007 produces insignificant results on the relationship between corporate ownership, including institutional ownership and state ownership, and a company’s CSR engagement. 
 
-While institutional investors’ role in ESG practices has garnered significant attention, the influence of state ownership introduces distinct dynamics, particularly in balancing public policy objectives with corporate accountability and transparency. @TAGESSON2009 find that State-owned corporations disclose more social information than privately owned corporations. One explanation is that state-owned corporations face heightened scrutiny, with pressure from their government stakeholders and public/media attention driving demands for accountability. These entities appear to have responded by aligning with stakeholder demands, reflecting compliance with external expectations. This fiding is also aligned with the social view of state ownership theory [see @STIGLITZ1993] that state ownership addresses market failures and improve social welfare.  @ZHOU2019 supports the social view that state ownership has a significant positive impact on firms’ CSR disclosure decisions. However, @RAIMO2020 report a negative relationship between state ownership and integrated report quality. Shareholding concentration can mean that one or several shareholders have substantial minority ownership stakes and voting rights, such as 10 or 20 percent [@SHLEIFER1997]. Corporate governance literature highlights the frequent comprimise of minority shareholder rights in firms dominant controlling shareholders, where concentrated ownership can lead to power imbalances and disproportionate influence over strategic decisions [@SMITH2022]. Therefore, @SMITH2022 demonstrate that controlling shareholders are less motivated to provide CSR information, with minority shareholders have less power in CSR disclosure practices. @BORGES2024 report that large sharehoders have low interest in the firm's CSR reporting. This result corroborates the finding by @DUCASSY2015 that dominant shareholders lack incentives to allocate resources to social initiatives in contexts with limited stakeholder pressures to legitimize corporate operations, which aligns with stakeholder theory and legitimacy theory.  
+While institutional investors’ role in ESG practices has garnered significant attention, the influence of state ownership introduces distinct dynamics, particularly in balancing public policy objectives with corporate accountability and transparency. @TAGESSON2009 find that State-owned corporations disclose more social information than privately owned corporations. One explanation is that state-owned corporations face heightened scrutiny, with pressure from their government stakeholders and public/media attention driving demands for accountability. These entities appear to have responded by aligning with stakeholder demands, reflecting compliance with external expectations. This fiding is also aligned with the social view of state ownership theory [see @STIGLITZ1993] that state ownership addresses market failures and improve social welfare.  @LAU2016 and @ZHOU2019 support the social view that state ownership has a significant positive impact on firms’ CSR disclosure decisions. @BOSE2018 demonstrate that higher institutional ownership leads to higher green banking disclosure. However, @RAIMO2020 report a negative relationship between state ownership and integrated report quality. Shareholding concentration can mean that one or several shareholders have substantial minority ownership stakes and voting rights, such as 10 or 20 percent [@SHLEIFER1997]. Corporate governance literature highlights the frequent comprimise of minority shareholder rights in firms dominant controlling shareholders, where concentrated ownership can lead to power imbalances and disproportionate influence over strategic decisions [@SMITH2022]. Therefore, @SMITH2022 demonstrate that controlling shareholders are less motivated to provide CSR information, with minority shareholders have less power in CSR disclosure practices. @BORGES2024 report that large sharehoders have low interest in the firm's CSR reporting. This result corroborates the finding by @DUCASSY2015 that dominant shareholders lack incentives to allocate resources to social initiatives in contexts with limited stakeholder pressures to legitimize corporate operations, which aligns with stakeholder theory and legitimacy theory. @LAU2016 also report that higher ownership concentration negatively affects CSR performance.  
+
+Studies that exmaine the influence of ESG regulations are still scarce. @HESS2007 suggests that current vulantary initialtives of social reporting are insufficienct to achieve coporate accountability. The study argues, aligned with ligitamacy theory, that social reporting is often driven by strategic considerations rather than a genuine commitment to accountability. Companies may engage in social reporting as a form of "impression management" to portray a positive image, rather than to provide meaningful and transparent information to stakeholders. @HESS_etal2007 suggest that an overarching mendatory social reporting system as the appropriate reporting system to avoid corporate strategic disclosing behavior. @QU2007 argues that the robustness and enforcement of government regulations critically shape the scope and depth of corporate social responsibility (CSR) initiatives, underscoring regulatory frameworks as a catalyst in advancing CSR practices by institutionalizing corporate accountability and alignment with societal expectations. @DESAI2024 reports that stock market investors reacts positively to the mandatory ESG disclosure regulation because mandatory ESG disclosure is considered as a positive signal by reducing information asymmetry. @KRUEGER2024 demonstrate that mandatroy ESG disclosure improve firms' liquidity, mitigating adverse selection problem. They also observe improvements in liquidity as markets anticipate the introduction of mandatory ESG disclosure regulations, reflecting proactive adjustments to expected regulatory changes. @LEE2024 find that compulsory ESG disclosure regulation signifies the negative impact of ESG scores on firms' extreme risks; the effect is amplified in cases where firms issue green bonds. @CICCHIELLO2023 examine the effects of NFRD. They argue that government-mandated ESG disclosure regulations targeting corporate social and environmental impacts are proven to strengthen both the rigor and reliability of corporate disclosure practices, fostering greater societal accountability. @BOSE2018 demonstate that green banking regulatory framework has positive association with green banking disclosure practices. However, @MANOS2024 report that self-regulated banks have higher ESG scores by adopting Principles for Responsible Banking (PRB). Additionally, their findings reveal the negative impact of regulatory quality on ESG disclosure performance. They argue that banks use mandatory ESG disclosure as a leverage to seek ligitimacy in weaker institutional environment. 
+
+This section presents an integrated Stakeholder-Legitimacy Framework, tailored to the banking sector, to explain banks’ ESG disclosure practices, synthesizing stakeholder theory, legitimacy theory, and institutional contexts into a cohesive analytical pathway. The framework posits that ESG disclosures arise from dynamic interactions between external stakeholder pressures (e.g., regulators, investors, customers) and banks’ legitimacy-seeking behaviors, moderated by economic factors (e.g., size, profitability) and institutional conditions (e.g., ownership structure, regulatory regimes). By bridging insights from @CAMPBELL2007 and @AGUINIS2012, the framework advances a holistic view of ESG reporting as a negotiated outcome of strategic adaptation to stakeholder demands and institutional expectations.
+
+Critical research gaps persist, however. First, while institutional and state ownership structures are increasingly scrutinized, findings remain inconsistent: institutional ownership’s role in ESG performance varies across studies [e.g., @DYCK2019; @ALUCHNA2022], and state ownership’s dual mandate for social welfare and corporate accountability lacks consensus [@TAGESSON2009; @RAIMO2020]. Second, the moderating role of regulatory frameworks is underexplored, particularly in the highly regulated banking sector. Empirical research on how mandatory ESG regulations (e.g., CSRD, EU Taxonomy) shape bank risk profiles, financial performance, and governance mechanisms remains scarce, despite the systemic importance of banks and their unique exposure to ESG-related risks. While studies have begun analyzing disclosure quality versus symbolic compliance in non-financial sectors [@CICCHIELLO2023; @MANOS2024], sector-specific analyses for banking—where regulatory pressures intersect with complex risk intermediation roles—are urgently needed. Third, compounding this complexity, banks’ dual role in ESG ecosystems warrants deeper scrutiny: as both reporting entities subject to disclosure mandates and financing intermediaries influencing firms’ access to green capital, they create transmission effects that amplify regulatory impacts across economies. For instance, @WANG2023 demonstrates that ESG disclosure regulations propagate through bank lending networks, altering borrowers’ environmental practices even without direct regulatory coverage—a phenomenon underexplored in the literature. Fourth, mixed evidence on the relationship between financial performance and ESG disclosure—such as conflicting results on profitability [@HADDOCK2005; @DYDUCH2017]—highlights the need for contextualized analyses. Finally, concentrated ownership’s tendency to marginalize minority shareholder influence on CSR practices [@SMITH2022; @BORGES2024] underscores a governance gap in aligning dominant shareholders with broader stakeholder expectations. These gaps signal opportunities for future research to refine the framework, particularly in disentangling ownership dynamics, regulatory efficacy, and the interplay between symbolic and substantive ESG strategies across diverse institutional settings.
+
+
+
+# Conclusion
+
+The transition from voluntary ESG initiatives to mandatory disclosure frameworks marks a paradigm shift in how financial institutions conceptualize and manage nature-related risks. Global frameworks like the TNFD and ISSB, alongside regional regulations such as the EU Taxonomy and CSRD, have established rigorous reporting standards that integrate environmental impacts into financial decision-making. For banks, these mandates necessitate not only transparency about their own operations but also heightened scrutiny of borrowers’ sustainability practices [see @WANG2023], creating cascading effects across economies. Empirical evidence suggests that ESG disclosures can mitigate bank-specific risks—such as insolvency and liquidity challenges—while improving market efficiency through reduced information asymmetry [@GANGI2019; @SCHOLTENS2019; @GANGWANI2024]. However, conflicting findings on the financial performance-ESG relationship and the role of ownership structures underscore the need for contextualized analyses.
+
+To address these complexities, this review advances the Stakeholder-Legitimacy Framework and tailor it to the banking sector. This framework synthesizes stakeholder theory, legitimacy theory, and institutional isomorphism to explain how banks’ ESG disclosures emerge from dynamic negotiations between external pressures (e.g., regulators, investors) and legitimacy-seeking behaviors. It posits that banks balance competing stakeholder demands—such as investor calls for transparency and regulatory mandates for biodiversity due diligence—through strategic disclosures that range from symbolic compliance (e.g., superficial TNFD adoption) to substantive action (e.g., divesting from deforestation-linked assets). Crucially, the framework incorporates moderating factors such as ownership structures (e.g., institutional ownership, state ownership) and regulatory regimes (e.g., mandatory CSRD, vuluntary IFRS S1 and S2 adoption), offering a nuanced lens to analyze how economic and institutional contexts shape disclosure outcomes [@CAMPBELL2007; @AGUINIS2012]. 
+
+Critical research gaps persist. First, the inconsistent role of institutional and state ownership in shaping ESG outcomes highlights the need for granular studies on how governance models mediate regulatory compliance. Second, the banking sector’s dual role as both reporting entities and financial intermediaries remains underexplored, particularly in how disclosure mandates transmit through lending networks to influence unregulated firms. Third, the interplay between symbolic compliance (e.g., adopting TNFD guidelines superficially) and substantive action (e.g., phasing out deforestation-linked loans) demands sector-specific inquiry, given banks’ systemic importance and complex risk intermediation functions. Finally, the marginalization of minority shareholders in CSR decision-making, coupled with concentrated ownership structures, reveals governance deficiencies that hinder stakeholder alignment.
+
+Future research may prioritize three avenues: (1) disentangling the economic and institutional factors that drive ESG disclosure quality in banks; (2) evaluating the systemic risk implications of nature-related regulatory shocks; for instance, assess how nature-related disclosures influence systemic risk within the banking sector and the wider economy; and (3) exploring the interaction between stakeholder-legitimacy framework and institutional isomorphism framework, to assess how coercive, mimetic, and normative pressures shape banks' ESG disclosure practices. By focusing on these three research avenues through the lens of the Stakeholder-Legitimacy Framework, scholars and policymakers can enhance our understanding of ESG disclosure dynamics in the banking sector. This will not only refine regulatory architectures but also ensure that ESG disclosures go beyond compliance checklists to drive meaningful progress. 
+
+
 
 
 
