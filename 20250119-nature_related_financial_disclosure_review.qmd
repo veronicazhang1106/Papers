@@ -1,5 +1,6 @@
 ---
 title: "A Stakeholder-Legitimacy Framework for ESG Disclosure in Banking Under Evolving Regulatory Mandates"
+subtitle: "Literature Review of ESG disclosure in Banking Industry"
 date: today
 dateformat: long
 author: 
@@ -93,7 +94,7 @@ The global financial system is undergoing a seismic shift as nature-related risk
 
 Despite the systemic importance of banks, empirical research on how ESG regulations affect their risk profiles, governance mechanisms, and financial performance remains fragmented. Existing studies disproportionately focus on non-financial firms [e.g. @YOUN2015; @FAVINO2019; @BUALLAY2019; @DYCK2019], leaving critical gaps in understanding banks’ unique intermediation role. For instance, while the TNFD’s LEAP methodology and the ISSB’s IFRS S1 and S2 standards are gaining traction, their sector-specific implications for banking—such as transmission effects through lending networks or the tension between symbolic compliance and substantive action—are underexplored. Theoretical frameworks also remain fragmented, with stakeholder theory, legitimacy theory, and institutional isomorphism often treated in isolation rather than as interconnected drivers of ESG disclosure. This review addresses these gaps by synthesizing global evidence, proposing an integrated theoretical model, and identifying urgent research priorities at the nexus of finance, regulation, and ecological stewardship.
 
-In this study, we advance a novel Stakeholder-Legitimacy Framework [@CAMPBELL2007; @AGUINIS2012] tailored to banks, synthesizing stakeholder theory, legitimacy theory, and institutional isomorphism. This model positions ESG disclosures as dynamic outcomes of external pressures (e.g., regulators, shareholders) and banks’ legitimacy-seeking behaviors, moderated by economic factors (e.g., bank size) and institutional contexts (e.g., ownership structures). We also find the following critical reseach gaps: 
+In this study, we advance a novel Stakeholder-Legitimacy Framework [@CAMPBELL2007; @AGUINIS2012] tailored to banks, synthesizing stakeholder theory, legitimacy theory, and institutional isomorphism. This model positions ESG disclosures as dynamic outcomes of external pressures (e.g., regulators, shareholders) and banks’ legitimacy-seeking behaviors, moderated by economic factors (e.g., bank size) and institutional contexts (e.g., ownership structures). We also find the following critical research gaps: 
 
 - Ownership Dynamics: The role of institutional and state ownership in shaping ESG outcomes remains inconsistent across studies [@DYCK2019; @RAIMO2020], with concentrated ownership marginalizing minority shareholder influence on CSR practices [@SMITH2022].
 

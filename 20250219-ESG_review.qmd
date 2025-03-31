@@ -1,0 +1,308 @@
+---
+title: "A Stakeholder-Legitimacy Framework for ESG Disclosure in Banking Under Evolving Regulatory Mandates"
+subtitle: "Literature Review of ESG disclosure in Banking Industry"
+author: "Veronica Zhang"
+date: today
+dateformat: long
+format: 
+  revealjs:
+    theme: white
+    toc: true
+    slide-number: true
+    scrollable: true
+    self-contained: true
+    preview-links: auto
+    link-external-icon: true
+    link-external-newwindow: true
+    logo: qublogo.jpg
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .title {
+        font-size: 2em;
+      }
+      </style>
+
+execute: 
+  eval: true
+  echo: false
+  output: true
+  warning: false
+  error: false
+  include: true
+---
+
+## **Introduction**
+
+- Global Shift to Mandatory ESG Frameworks
+- Disclosure frameworks consensus
+
+:::{.notes}
+- The global financial system is undergoing a seismic shift as nature-related risks—ranging from biodiversity loss to ecosystem degradation—emerge as material threats to economic stability. 
+- Disclosure frameworks including TNFD, ISSB, CSRD reflect a growing consensus that environmental risks are inseparably linked to financial performance. 
+:::
+
+### Motivation
+
+- Systemic Risks of Nature-Related Financial Exposures
+- Critical Research Gaps in Banking ESG Studies
+
+:::{.notes}
+- Banks play a critical role in the global financial system, acting as intermediaries between savers and borrowers. However, their exposure to nature-related risks—such as biodiversity loss, deforestation, and water scarcity—poses significant systemic risk. 
+- Empirical research on how ESG regulations affect their risk profiles, governance mechanisms, and financial performance remains fragmented. Existing studies focus on non-financial firms, leaving critical gaps in understanding banks' unique intermediation role in amplifying or mitigating these risks. 
+:::
+
+### Findings
+
+- Proposed a stakeholder-legitimacy framework in banking industry
+- Research gaps: 
+  - Ownership dynamics: The role of institutional and state ownership in shaping ESG outcomes remains inconsistent across studies
+  - Regulatory Efficacy: Analyses of the impact of mandatory frameworks on bank risk profiles and governance mechanisms are still scarce. 
+  - Systemic Risk Implications: The interplay between ESG disclosures and  systemic financial stability, especially during regulatory shocks lacks empirical rigor. 
+
+### Contribution
+
+- Stakeholder-Legitimacy Framework for Banks
+- Policy-Relevant Insights & Future Research Agenda
+
+:::{.notes}
+- The Stakeholder-Legitimacy Framework bridges siloed theories, offering a holistic lens to analyze banks' ESG disclosures as context-dependent processes shaped by stakeholder pressures and legitimacy imperatives.
+- By finding the underexplored research gaps, we provide a roadmap for future studies to address banking-specific complexities.
+- We identify ISSB-TNFD interoperability and provide policy-relevant insights for regulators.   
+
+::: 
+
+# The review of ESG disclosure frameworks
+
+## Global Frameworks
+
+- TNFD (Task Force on Nature-Related Financial Disclosures)
+  + Extends TCFD's pillars to biodiversity, water security, and ecosystems
+  + LEAP Methodology: Locate, Evaluate, Assess, Prepare
+  + Adopted in France, Brazil, and the UK.
+- ISSB Standards (IFRS S1 & S2)
+  + Integrates sustainability into financial statements
+  + Mandatory adoption by 2025 (e.g., UK SRS, Singapore)
+
+- ![Alignment of IFRS S1 and S2](IFRS_S1S2.jpeg)
+
+## Regional Frameworks
+
+```{r KableExtra-Regional Table}
+#| label: tbl-regional
+#| tbl-cap: Regional ESG Disclosure Regulations
+#| echo: false
+
+library(tidyverse)
+library(kableExtra)
+
+## Create variables
+Region <- c("EU",
+            "EU", 
+            "EU", 
+            "UK", 
+            "US", 
+            "US")
+
+Regulation <- c("EU Taxonomy Regulation", 
+                "Corporate Sustainability Reporting Directive (CSRD)", 
+                "Sustainable Finance Disclosure Regulation (SFDR)", 
+                "Sustainability Disclosure Requirements (SDR)", 
+                "SEC Climate Disclosure Rule", 
+                "Climate Corporate Data Accountability Act (SB 253)")
+
+Year <- c(2020, 
+          2023, 
+          2021, 
+          2023, 
+          2024, 
+          2026)
+
+Key_features <- c("a comprehensiver classification system designed to identify environmentally sustainable activities", 
+                  "'double materiality' approach; ESRS", 
+                  "financial institutions classify investment products based on their sustainability objectives", 
+                  "ISSB-aligned reporting; Transition plans for Paris and GBF; Financed emissions disclosure", 
+                  "Material climate risk disclosure; Scope 1-3 emissions reporting; Extreme weather cost reporting",
+                  "Scope 1-3 emissions reporting for $1B+ revenue firms; Biodiversity risk assessment")
+  
+Scope <- c("Banks and in-scope entities", 
+           "50,000+ EU/non-EU companies by 2027", 
+           "Financial institutions", 
+           "Listed companies (from 2026); High-impact sectors (agriculture, mining)", 
+           "Public companies", 
+           "Large corporations operating in California")
+
+Enforcement <- c("Failure to comply can result in reputational damage and exclusion from sustainable finance markets", 
+                 "Mandatory for EU/non-EU companies", 
+                 "Market exclusion for non-compliance", 
+                 "FCA enforcement starting 2026", 
+                 "Delayed due to legal challenges", 
+                 "California state law enforcement")
+
+Alignment <- c("EU Taxonomy classification system", 
+               "Aligns with IFRS S1 and S2 standards; TNFD metrics", 
+               "Links to EU Taxonomy", 
+               "Aligns with IFRS S1 and S2; References TNFD recommendations", 
+               "N/A", 
+               "Addresses supply chain biodiversity risks")
+  
+## Set up the tibble
+df_region <- tibble(Region, Regulation, Year, Key_features, Scope, Enforcement, Alignment)
+
+kableExtra::kbl(df_region, 
+                booktabs = TRUE) |> 
+  kable_styling(latex_options = c("striped", "scale_down"), 
+                font_size = 11) |> 
+  row_spec(row = 0, bold = TRUE, background = "lightgray", align = "c") |> 
+  column_spec(1, width = "5em") |>     # Region
+  column_spec(2, width = "8em") |>   # Regulation
+  column_spec(3, width = "5em") |>   # Year
+  column_spec(4, width = "12em") |>     # Key_Requirements
+  column_spec(5, width = "8em") |>   # Scope
+  column_spec(6, width = "10em") |>   # Enforcement
+  column_spec(7, width = "10em")  
+ 
+```
+
+
+## Theoretical Foundations
+ - Organizational Theories
+  + Stakeholder theory
+  + Legitimacy theory  
+- Economic Theories
+  + Agency theory
+  + Information Asymmetry
+- Institutional Isomorphism Framework
+  + Coercive, mimetic, normative
+- Emerging Theoretical Concepts
+  + Natural capital concept
+  + Double-materiality
+
+
+:::{.notes}
+- Stakeholder theory, developed by @FREEMAN1984, posits that organizations are accountable to a broad range of stakeholders beyond shareholders. Banks should balance demands from regulators, investors, and communities.
+- Legitimacy Theory, foundationally developed by @SUCHMAN1995, identifies three primary forms of legitimacy—pragmatic, moral, and cognitive—that organizations seek to maintain. Disclosures as tools to maintain societal approval. 
+-  Economic theories, particularly information asymmetry and agency theory, explain how ESG reporting enhances market efficiency and reduces capital costs. @JENSEN1976 established the foundational agency theory framework, explaining the conflicts of interest between principals (shareholders) and agents (managers). 
+- @AKERLOF1970 work on Information Asymmetry further explains how unequal information among market participants creates inefficiencies. 
+- Institutional isomorphism framework explains the standardization and diffusion of reporting practices.  @DIMAGGIO1983 identify three mechanisms driving institutional isomorphism: Coercive isomorphism (regulation), Mimetic isomorphism (best practice) and Normative isomorphism (professional network). 
+-  Emerging theoretical concepts and analytical lenses around natural capital and double materiality offer novel perspectives on integrating environmental considerations into financial decision-making.
+
+:::
+
+
+## Empirical Research in Banking Industry
+
+- Firm value and Performance
+- Bank risk 
+- Investment strategy and portfolio alignment
+
+
+## Stakeholder-Legitimacy Framework
+
+### Proposed Framework
+
+```{r stakeholder-legitimacy framework}
+#| label: fig-flowchart
+#| fig-cap: "ESG Disclosure Flowchart"
+
+library(DiagrammeR)
+library(DiagrammeRsvg)
+library(rsvg)
+
+grViz("
+digraph {
+  graph [
+    rankdir = TB,
+    size = '8,10!',        // Constrain graph dimensions
+    ratio = 'compress',    // Compress to fit dimensions
+    nodesep = 0.5,         // Reduce spacing between nodes
+    ranksep = 0.4,         // Reduce vertical spacing
+    fontsize = 10          // Reduce font size
+  ]
+  
+  node [
+    shape = oval,
+    width = 1.5,          // Reduce node width
+    height = 0.8,         // Reduce node height
+    fontname = 'Helvetica'
+  ]
+  
+  // Main vertical flow
+  1 [label = 'Stakeholder Pressure']
+  2 [label = 'Legitimacy-seeking Behavior']
+  3 [label = 'ESG Disclosure']
+  
+  // Side nodes
+  4 [label = 'Bank Economic Context']
+  5 [label = 'Bank Institutional Context']
+  
+  // Main vertical connections
+  1 -> 2 -> 3 [minlen = 1]
+  
+  // Side connections
+  4 -> 3 [constraint = false]
+  5 -> 3 [constraint = false]
+  
+  // Force side nodes to same rank
+  {rank = same; 4; 5}
+  
+  // Position side nodes using invisible edges
+  invisible_node [shape = point, width = 0, height = 0]
+  2 -> invisible_node [style = invis]
+  invisible_node -> 4 [style = invis]
+  invisible_node -> 5 [style = invis]
+}
+") 
+
+```
+
+:::{.notes}
+- In the integrated framework, stakeholder pressures act as catalysts for banks' ESG disclosures. According to stakeholder theory, companies should consider and balance the diverse viewpoints and expectations of all groups affected by or invested in their operations, rather than focusing solely on shareholders.  Stakeholder pressures arise from key external actors, including regulators, investors, and customers. These actors demand greater transparency and accountability, motivating banks to provide valuable explanations of how they answer to the societal call for sustainable business conduct. Banks respond to these pressures through strategic legitimacy-seeking behaviors. Banks' ESG disclosures range from symbolic gestures (e.g. adopting TCFD guidelines without operational changes) to substantive actions such as phasing out coal financing. Crucially, legitimacy is not a static achievement but an ongoing process; banks must continuously adapt to shifting norms, such as the rise of the TNFD as a biodiversity benchmark. In the stakeholder-legitimacy context, influential stakeholders execute greater pressure on companies to explain and justify their business conduct. Therefore, sustainable reporting and disclosed ESG information serve as a way for companies to establish and maintain their legitimacy in the eyes of these stakeholders. 
+- The integrated framework further incorporates moderating contexts that shape ESG disclosures produced by the translation of stakeholder pressures into banks' legitimacy-seeking behaviors, including economic conditions such as size and profitability, and institutional context such as ownership structure and regulatory regimes.
+
+:::
+
+## Stakeholder-Legitimacy Framework
+
+### Moderating Factors
+
+- Bank Size
+- Financial Performance
+- Ownership Structure
+  + Publicly listed
+  + Institutional shareholding
+  + State-owned
+  + Shareholding concentration
+- Regulation
+
+:::{.notes}
+- Firm size (usually measured by total assets or market capitalization) can be considered to have a positive effect on the adoption and extent of ESG disclosure.
+- Most studies focus on the impact of ESG activities on financial performance. Financial performance as a determinant of ESG disclosure receives less academic attention.  The empirical results are mixed. @BRAMMER2008 report that firms with higher leverage are less likely to make voluntary environmental disclosures due to financial constraints and costs. While @DYDUCH2017 do not find a significant relationship between financial performance and sustainability reporting in Polish listed companies.
+- Studies examining different ownership variables have emerged primarily in recent years. The most investigated ownership structures include a company's listing status (publicly listed), institutional shareholding, government involvement (state-owned), and shareholding concentration.
+- Publicly listed companies, in order to stay attuned to stakeholder pressure and seek societal legitimacy, tend to be actively engaged in ESG reporting.
+- Empirical literature provides inconsistent findings on how institutional shareholding influences ESG disclosure, with both positive and negative association between institutional ownership and ESG performance. 
+- The similar inconsistent results are reporting on state-owned ownership. For example, @TAGESSON2009 find that State-owned corporations disclose more social information than privately owned corporations. While @RAIMO2020 report a negative relationship between state ownership and integrated report quality. 
+- Corporate governance literature highlights the frequent compromise of minority shareholder rights in firms with dominant controlling shareholders, where concentrated ownership can lead to power imbalances and disproportionate influence over strategic decisions. Therefore, literature reports  that higher ownership concentration negatively affects CSR performance. 
+- Literature has a split opinion on mandatory and voluntary ESG disclosure regulation. For example, @CICCHIELLO2023 examine the effects of NFRD. They argue that government-mandated ESG disclosure regulations targeting corporate social and environmental impacts are proven to strengthen both the rigor and reliability of corporate disclosure practices. However, @MANOS2024 report that self-regulated banks have higher ESG scores by adopting Principles for Responsible Banking (PRB). 
+
+:::
+
+
+## Conclusion
+
+- Mandatory ESG Frameworks (TNFD, ISSB, CSRD) drive systemic integration of nature-related risks into banking.
+- Stakeholder-Legitimacy Framework
+  + Synthesizes stakeholder theory, legitimacy theory, institutional isomorphism
+  + Moderators: economic context (size, financial performance), ownership structures, regulatory regimes
+- Future Research Priorities
+  + Drivers of Disclosure Quality: Economic vs. institutional factors.
+  + Systemic Risk: Impact of nature-related regulatory shocks.
+  + Institutional Pressures: Coercive, mimetic, normative forces in ESG adoption.
+
+:::{.notes}
+- Highlight the shift from voluntary to mandatory frameworks and banks' unique systemic risks.
+- this review advances the Stakeholder-Legitimacy Framework and tailor it to the banking sector. This framework synthesizes stakeholder theory, legitimacy theory, and institutional isomorphism to explain how banks' ESG disclosures emerge from dynamic negotiations between external pressures (e.g., regulators, investors) and legitimacy-seeking behaviors.
+- The framework incorporates moderating factors such as ownership structures (e.g., institutional ownership, state ownership) and regulatory regimes (e.g., mandatory CSRD, voluntary IFRS S1 and S2 adoption), offering a nuanced lens to analyze how economic and institutional contexts shape disclosure outcomes.  
+- Future research may prioritize three avenues: (1) disentangling the economic and institutional factors that drive ESG disclosure quality in banks; (2) evaluating the systemic risk implications of nature-related regulatory shocks; for instance, assess how nature-related disclosures influence systemic risk within the banking sector and the wider economy; and (3)  exploring the interaction between stakeholder-legitimacy framework and institutional isomorphism framework, to assess how coercive, mimetic, and normative pressures shape banks' ESG disclosure practices. 
+
+:::

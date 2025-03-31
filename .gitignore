@@ -47,3 +47,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+*.pdf
+
+EndNote Library_Papers.Data/
+EndNote Library_Papers.enl
