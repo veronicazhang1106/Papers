@@ -7,9 +7,9 @@ author:
   - name: Ying (Veronica) Zhang
     email: veronica.zhang@qub.ac.uk
     affiliations: 
-      - id: qbs
+      - id: sbs
         name: Queen's University, Belfast
-        department: Queen's Business School
+        department: School of Biological Sciences
         address: Belfast, UK
     attributes:
       corresponding: true
@@ -20,20 +20,18 @@ author:
     affiliations: 
       - id: ucd
         name: University College Dublin
-        department: UCD College of Business
+        department: UCD Michael Smurfit Graduate Business School
         address: Dublin, Ireland
   - name: Fearghal Kearney
     email: f.kearney@qub.ac.uk
     affiliations: 
-      - ref: qbs
+      - id: qbs
+        name: Queen's University, Belfast
+        department: Queen's Business School
+        address: Belfast, UK
   - name: Junyu Zhang
     affiliations: 
-      - id: sbs
-        name: Queen's University, Belfast
-        department: School of Biological Sciences
-  - name: Suma Mani
-    affiliations: 
-      - ref: sbs
+      - ref: sbs  
   - name: George Hutchinson
     affiliations: 
       - ref: sbs
@@ -54,7 +52,7 @@ keywords:
   - ownership
   - climate change
   - JEL code M14, M41, G28
-bibliography: review.bib
+bibliography: reviewurl.bib
 format: 
   elsevier-pdf: 
     keep-tex: true
@@ -115,7 +113,7 @@ Our study contributes to sustainable finance research through three key areas:
 
 The remainder of the literature review is organized as follows: In Section II, we review the theories underpinning the relationship between ESG disclosure and the banking sector. In Section III, we propose the integrated Stakeholder-Legitimacy framework applied to the banking industry and review the research gaps. Section IV is the conclusion section. An overview of the nature-related financial disclosure frameworks from different dimensions, as background information of this review, is provided in the appendix. 
 
-# ESG disclsoure and Banks
+# ESG disclosure and Banks
 
 ## Theoretical Foundation
 
@@ -150,7 +148,7 @@ ESG disclosure and reporting has a positive influence on a company's financial p
 
 ### Firm Value and Performance
 
-Stakeholder theories [see @FREEMAN1984; @DEEGAN2002] suggest that when organizations incorporate environmental, social, and governance (ESG) practices into their long-term strategic planning, they gain competitive advantages by addressing the needs of various groups - from employees and customers to government bodies and community members. This approach recognizes that business success is linked to creating value for all stakeholders, not just shareholders. The stakholders reward companys with good ESG practices through investment, consumption and higher productivity [@LI2018]In contrast, the trade-off hypothesis or traditionalist view [see @FRIEDMAN2007] suggests ESG practices negatively impact financial performance by increasing costs, harming corporate performance, and reducing competitive advantage. Scholars argue that focusing on social and environmental goals diverts managers from maximizing shareholder value. Similarly, satisfying non-shareholder stakeholders may hinder profit maximization and value creation for owners and managers[@GALANT2017].
+Stakeholder theories [see @FREEMAN1984; @DEEGAN2002] suggest that when organizations incorporate environmental, social, and governance (ESG) practices into their long-term strategic planning, they gain competitive advantages by addressing the needs of various groups - from employees and customers to government bodies and community members. This approach recognizes that business success is linked to creating value for all stakeholders, not just shareholders. The stakeholders reward companies with good ESG practices through investment, consumption and higher productivity [@LI2018]In contrast, the trade-off hypothesis or traditionalist view [see @FRIEDMAN2007] suggests ESG practices negatively impact financial performance by increasing costs, harming corporate performance, and reducing competitive advantage. Scholars argue that focusing on social and environmental goals diverts managers from maximizing shareholder value. Similarly, satisfying non-shareholder stakeholders may hinder profit maximization and value creation for owners and managers[@GALANT2017].
 
 Empirical studies on the relationship between ESG engagement and financial performance have provided conflicting findings. Driven by stakeholder theory, @WU2013 find that ESG disclosures improve bank profitability by attracting ESG-conscious investors. Their findings attribute to stakeholder pressure for transparency. Drawing from empirical analysis using MSCI ESG STATS database ratings, @CORNETT2016 examine the relationship between the US commercial banks' corporate social responsibility (CSR) practices and financial performance. The study reveals that larger banks, despite facing criticism for profit-focused practices leading to the crisis, demonstrate consistently higher CSR strengths and concerns. Post-2009, these institutions showed marked improvement with increased CSR strengths and decreased concerns. Similarly, studies such as @CARNEVALE2014, @SHEN2016 and @BUALLAY2021 demonstrate banks' engagement in CSR activities can improve the financial performance. @TIAN2023 report that banks with green credit announcement show better market value and long-term performance. While @FERRERO2016 find a nonlinear relationship between ESG and financial performance employing listed companies in Europe. Moreover, @BUALLAY2023 investigate the effect of sustainability reporting on bank performance (operational, financial and market) in 7 regions that include 60 countries over the period 2008-2017. They find the negative relationship between ESG disclosures and banks' operational performance (ROA, ROE), and market performance (Tobin's Q). They argue that sustainability reporting may have negative impact on banks' asset utilization, in line with the trad-off theory [see @LEE2009].
 
@@ -187,7 +185,7 @@ In the early 2000s, @HOOGHIEMSTRA2000 argues that sustainability reporting resea
 
 ```{r stakeholder-legitimacy framework}
 #| label: fig-flowchart
-#| fig-cap: "ESG Disclosure Flowchart"
+#| fig-cap: "ESG Stakeholder-Legitimacy Disclosure Framework"
 
 library(DiagrammeR)
 library(DiagrammeRsvg)
@@ -282,7 +280,11 @@ To address these complexities, this review advances the Stakeholder-Legitimacy F
 
 Critical research gaps persist. First, the inconsistent role of institutional and state ownership in shaping ESG outcomes highlights the need for granular studies on how governance models mediate regulatory compliance. Second, the banking sector’s dual role as both reporting entities and financial intermediaries remains underexplored, particularly in how disclosure mandates transmit through lending networks to influence unregulated firms. Third, the interplay between symbolic compliance (e.g., adopting TNFD guidelines superficially) and substantive action (e.g., phasing out deforestation-linked loans) demands sector-specific inquiry, given banks’ systemic importance and complex risk intermediation functions. Finally, the marginalization of minority shareholders in CSR decision-making, coupled with concentrated ownership structures, reveals governance deficiencies that hinder stakeholder alignment.
 
-Future research may prioritize three avenues: (1) disentangling the economic and institutional factors that drive ESG disclosure quality in banks; (2) evaluating the systemic risk implications of nature-related regulatory shocks; for instance, assess how nature-related disclosures influence systemic risk within the banking sector and the wider economy; and (3) exploring the interaction between stakeholder-legitimacy framework and institutional isomorphism framework, to assess how coercive, mimetic, and normative pressures shape banks' ESG disclosure practices. By focusing on these three research avenues through the lens of the Stakeholder-Legitimacy Framework, scholars and policymakers can enhance our understanding of ESG disclosure dynamics in the banking sector. This will not only refine regulatory architectures but also ensure that ESG disclosures go beyond compliance checklists to drive meaningful progress. 
+Future research may prioritize three avenues: (1) disentangling the economic and institutional factors that drive ESG disclosure quality in banks; (2) evaluating the systemic risk implications of nature-related regulatory shocks; for instance, assess how nature-related disclosures influence systemic risk within the banking sector and the wider economy; and (3) exploring the interaction between stakeholder-legitimacy framework and institutional isomorphism framework, to assess how coercive, mimetic, and normative pressures shape banks' ESG disclosure practices. 
+
+The proliferation of nature-related disclosure frameworks in recent years reveals the shift from vulentary toward mandatory disclosure: from TNFD's market-driven recommendations to IFRS S1 and S2 disclosure framework, and mandatory EU reporting standards CSRD. This trend is driven by several key developments including recognition of material nature-related risks, global reporting alignment, and integration with financial reporting. However, accelerating fragmentation creates compliance complexity, while implementation gaps persist in emerging economies facing data scarcity and capacity constraints. The fourth research direction may therefore focus on: harmonization pathways across frameworks, effectiveness of disclosure mandates in redirecting conservation financing (e.g. how metric inconsistencies create greenwashing vulnerabilities), and tangible impacts on biodiversity loss reduction—particularly in high-risk lending portfolios.​
+
+By focusing on these research avenues through the lens of the Stakeholder-Legitimacy Framework, scholars and policymakers can enhance our understanding of ESG disclosure dynamics in the banking sector. This will not only refine regulatory architectures but also ensure that ESG disclosures go beyond compliance checklists to drive meaningful progress. 
 
 
 # Reference

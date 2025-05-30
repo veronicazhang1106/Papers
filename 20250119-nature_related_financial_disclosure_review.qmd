@@ -188,7 +188,7 @@ In the early 2000s, @HOOGHIEMSTRA2000 argues that sustainability reporting resea
 
 ```{r stakeholder-legitimacy framework}
 #| label: fig-flowchart
-#| fig-cap: "ESG Disclosure Flowchart"
+#| fig-cap: "ESG Stakeholder-Legitimacy Disclosure Framework"
 
 library(DiagrammeR)
 library(DiagrammeRsvg)
