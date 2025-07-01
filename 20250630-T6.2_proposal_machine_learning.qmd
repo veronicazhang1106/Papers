@@ -1,0 +1,127 @@
+---
+title: "T6.2 empirical research - machine learning approach"
+date: 2025-06-30
+dateformat: long
+author: Veronica Zhang
+format: 
+  html:
+    toc: true
+    theme: minty
+    smooth-scroll: true
+    self-contained: true
+    search: true
+    link-external-icon: true
+    link-external-newwindow: true
+execute: 
+  echo: false
+  eval: true
+  warning: false
+  error: false
+  output: true
+  include: true
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(tinytex)
+library(knitr)
+library(rmarkdown)
+library(kableExtra)
+library(gt)
+
+```
+
+
+## T6.2 Description
+
+Task 6.2: Corporate Reporting, Accounting Standards & NBS Certification [M6-M24] Leader: QUB | Partners: SERDA, IST, UL Collaborate with financial sector partners to develop accurate and clear nature-related disclosures in line with the framework presented by the SFT and the Task Force on Nature Related Financial Disclosures 
+(TNFD) and informed by the findings from the WPs across the project. Compliance risk in relation to disclosing biodiversity related activities is increasing as regulations are evolving rapidly, and compliance staff are struggling to keep up to date on changes. This has led to a resourcing gap in this area. 
+
+## Background 
+
+- T6.2: Rapidly evolving TNFD/SFT frameworks create compliance burdens for firms 
+- Existing studies rely on qualitative case studies; lack scalable quantitative metrics 
+
+## Research Question
+
+How do firm-level factors (size, ESG performance) and regulatory enforcement intensity (reg_strictness) drive compliance risks under the EU CSRD’s biodiversity disclosure requirements?
+
+
+## Research Objectives
+
+- Quantify compliance gaps using CSRD’s (​e.g. ESRS E4​ biodiversity) metrics
+- Identify high-risk firms using panel regression, informing BIOFIN’s financial sector partners, depending on data availability
+- Optionally, reveal risk prediction if time permits (Machine Learning approach)
+
+## Core Variables
+
+```{r variable table}
+
+#| label: tbl-variable
+#| tbl-cap: "Core Variables"
+
+df <- tibble(
+  Variable = c("Compliance_score", "reg_strictness", "control_variables"), 
+  Definition = c("% of CSRD ESRS E4 metrics disclosed (0-100)", 
+                "National enforecment intensity (0-1)", 
+                "ln_assets, esg_score, sector, country"), 
+  Source = c("Python-scraped CSRD text vs. firm ESG report", 
+              "Weight index of：CSRD penaty cases (ECB data)；Audit frequency；etc.", 
+              "RefinitivLSEG, Bloomberg")
+)
+
+tbl_df <- df |>
+  gt() |>
+  tab_header(title = "Core Variables") |>
+  cols_label(
+    "Variable" = "Variables",
+    "Definition" = "Definition",
+    "Source" =  "Source and Construction"
+  ) |>  
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels()
+  ) 
+
+tbl_df
+
+```
+
+## Regression Model
+
+
+\begin{equation}
+\begin{aligned}
+Compliance\_score_{it} = \beta_0 + \beta_1 reg\_strictness_{it} \\
++ \beta_2 esg\_score_{it} + \beta_3 ln\_assets_{it} + \epsilon_{it}
+
+\end{aligned}
+\end{equation}
+
+### Hypotheses
+
+- H1: $\beta_1$ > 0, Higher regulatory enforcement intensity improves compliance
+- H2: $\beta_2$ > 0, Higher ESG performance leads to lower compliance gaps
+
+## Machine Learning Extension (contingent on time)
+
+LightGBM or XGBoost compliance risk prediction, dependent on data availability
+
+## Minimum output - for T6.2
+
+Technical report: "Determinants of CSRD Biodiversity Compliance: Evidence from European Firms" (or Financial Institutions, dependent on data availability)
+
+contribute to Deliverable 6.3 "sustainable finance best practice report": compliance gap analysis by country/sector
+
+dataset: panel data of EU firms/financial institutions from 2018-2024
+
+## Enhanced output - machine learning
+
+academic paper: "predicting biodiversity compliance risks using machine learning"
+
+## Timeline and contingency
+
+- data collection, tidying 2-4 months
+- regression, results analysis 2 months
+- machine learning extension extra 3-6 months
+

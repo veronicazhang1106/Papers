@@ -36,6 +36,7 @@ author:
   - name: Neil Reid
     affiliations: 
       - ref: sbs
+      - ref: qbs
       - id: cbw
         name: Queen's University Belfast
         department: Co-Centre for Climate + Biodiversity + Water, School of Biological Sciences
@@ -106,11 +107,11 @@ Current empirical studies show how banks use ESG reporting to navigate real-worl
 
 In this study, we advance a novel Stakeholder-Legitimacy Framework [@CAMPBELL2007; @AGUINIS2012] tailored to banks, synthesising stakeholder theory, legitimacy theory, and institutional isomorphism. This model positions ESG disclosures as dynamic outcomes of external pressures (e.g., regulators, shareholders) and banks’ legitimacy-seeking behaviors, moderated by economic factors (e.g., bank size) and institutional contexts (e.g., ownership structures). Our synthesis of extant literature highlights three critical research gaps:
 
-- Ownership Dynamics: The role of institutional and state ownership in shaping ESG outcomes remains inconsistent across studies [@DYCK2019; @RAIMO2020], with concentrated ownership marginalising minority shareholder influence on CSR practices [@SMITH2022].
+1. Ownership Dynamics: The role of institutional and state ownership in shaping ESG outcomes remains inconsistent across studies [@DYCK2019; @RAIMO2020], with concentrated ownership marginalising minority shareholder influence on CSR practices [@SMITH2022].
 
-- Regulatory Efficacy: Sector-specific analyses of mandatory frameworks (e.g., CSRD, EU Taxonomy) are scarce, particularly their impact on bank risk profiles and governance mechanisms.
+2. Regulatory Efficacy: Sector-specific analyses of mandatory frameworks (e.g., CSRD, EU Taxonomy) are scarce, particularly their impact on bank risk profiles and governance mechanisms.
 
-- Systemic Risk Implications: The interplay between ESG disclosures and systemic financial stability, especially during regulatory shocks (e.g., rapid green  and climate transitions), lacks empirical rigor [@ESRB2016].
+3. Systemic Risk Implications: The interplay between ESG disclosures and systemic financial stability, especially during regulatory shocks (e.g., rapid green  and climate transitions), lacks empirical rigor [@ESRB2016].
 
 Our study contributes to sustainable finance research through three key areas:
 
