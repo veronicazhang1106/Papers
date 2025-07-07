@@ -6,6 +6,7 @@ author: Veronica Zhang
 format: 
   html:
     toc: true
+    appendix: true
     theme: minty
     smooth-scroll: true
     self-contained: true
@@ -125,3 +126,52 @@ academic paper: "predicting biodiversity compliance risks using machine learning
 - regression, results analysis 2 months
 - machine learning extension extra 3-6 months
 
+## Appendix {.appendix}
+
+Variable Construction - reg_strictness
+
+```{r reg_strictness}
+#| label: tbl-stringency
+#| tbl-cap: "Regulation Stringency Measurement Table"
+
+reg_df <- tibble(
+  dimension = c("Scope of application", "Double materiality", "Prescribed metrics", "Assurance level", "Enforcement framework"), 
+  assessment = c("Which entities are mandated to report under CSRD", 
+                "Whether reporting must cover both impact materiality and financial materiality", 
+                "Breadth of mandatory quantitative disclosures", 
+                "Requirement for independent limited/reasonable assurance on sustainability reports", 
+                "Statutory penalties for non-compliance defined in national law"), 
+  measurement = c("% of entities covered in sample", 
+                "​Binary:​​ Is double materiality explicitly mandated? (Yes = 1, No = 0)",
+                "Count of ​standardized quantitative KPI categories​ required across ESRS topics", 
+                "Phased: 0 = No assurance required, 1 = ​Limited assurance​ (2024-2027)", 
+                "National Scoring​ based on: Existence of fines, and max fine (% of revenue/turnover)"),              
+  source = c("CSRD Directive (EU) 2022/2464", 
+              "CSRD Directive (EU) 2022/2464, ESRS 1 General Requirements", 
+              "Commission Delegated Regulation (EU) 2023/2772 (ESRS)", 
+              "CSRD Directive (EU) 2022/2464", 
+              "CSRD Directive (EU) 2022/2464"), 
+  weights = c("25%", "30%", "20%", "15%", "10%")
+)
+
+tbl_reg <- reg_df |>
+  gt() |>
+  tab_header(title = "Stringency measurements") |>
+  cols_label(
+    "dimension" = "Stringency Dimension",
+    "assessment" = "Core Assessment",
+    "measurement" =  "Scoring Approach", 
+    "source" = "Data Sources", 
+    "weights" = "Weights"
+  ) |>  
+  tab_style(
+    style = cell_text(weight = "bold"),
+    locations = cells_column_labels()
+  ) 
+
+tbl_reg
+
+
+
+
+```
