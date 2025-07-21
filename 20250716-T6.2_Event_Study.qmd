@@ -1,0 +1,162 @@
+---
+title: "T6.2 Proposal - Event Study"
+date: today
+date-format: long
+author: 
+  - Veronica Zhang
+  - Junyu Zhang
+format: 
+  pdf: 
+    toc: false
+    keep-tex: true
+execute: 
+  echo: false
+  eval: true
+  output: true
+  warning: false
+  error: false
+  include: true
+---
+
+```{r}
+#| label: library-setup 
+#| include: false
+
+library(tidyverse)
+library(lubridate)
+library(knitr)
+library(kableExtra)
+library(tinytex)
+
+```
+
+
+## Research Question: Market Reaction to CSRD Events and Biodiversity Risk Exposure
+
+### Hypotheses Formulation
+
+- Hypothesis 1: CSRD regulatory events trigger negative abnormal returns
+
+The enactment of key CSRD regulatory events (e.g., CSRD final text adoption, disclosure standards ESRS release) generates statistically significant negative abnormal returns for European listed firms, reflecting market anticipation of compliance cost burdens.
+
+- Hypothesis 2: ESG risk exposure (Bloomberg ESG Resource Dependence Score) amplifies abnormal (negative) returns
+
+The adverse market reaction is significantly stronger for firms with higher Bloomberg ESG Resource Dependence scores, indicating investor pricing of biodiversity-related transition risks under more stringent disclosure requirements.
+
+
+### Event Window Specification 
+
+```{r} 
+#| label: tbl-event
+#| tbl-cap: "CSRD Event Dates Selection"
+
+df<- tibble (
+  Window = c("Estimation Window", "Pre-Event Buffer", "Event Window", "Post-Event Window"),
+  Time = c("2022-03-01 to 2022-12-01", 
+            "2022-12-02 to 2022-12-30", 
+            "2023-01-03 to 2023-01-09", 
+            "2023-01-10 to 2023-04-03"), 
+  Trading_days = c ("[-180, -22]", 
+                    "[-21, -2]", 
+                    "[-1, +3]", 
+                    "[+5, +60]"),
+  Purpose = c ("Model calibration excluding COP26(2021) policy effects and Ukraine war effects",
+               "Monitor anticipatory positioning and exclude information contamination", 
+               "Capture market digestion of compliance obligations", 
+               "Track implementation uncertainty resolution")
+)
+
+kbl (df, booktabs = T,
+     col.names = c("Window Type", "Time Period", "Trading Days", "Purpose")) |>
+  kable_styling(latex_options = c("striped"), 
+                font_size = 9) |>
+  column_spec(1, bold = TRUE, 
+              width = "2cm") |>
+  column_spec(2, width = "3cm") |>
+  column_spec(3, width = "2cm") |>
+  column_spec(4, width = "4cm") |>
+  row_spec(0, bold = TRUE) 
+
+
+```
+
+
+
+## Statistical Analysis Plan
+
+### Event Study Core Test (H1)
+
+- **Daily Abnormal Return (AR) using market method (OLS from estimation window)** (event window)
+
+\begin{equation}
+AR_{it} = R_{it} - (\hat{\alpha_i} + \hat{\beta_i}R_{mt})
+\end{equation}
+
+- **Average Abnormal Return (AAR) (daily, cross-sectional)** (event window)
+
+Reflect the market's collective reaction on day t within the event window. AAR is used to analyze the time dynamics of the event’s impact, for example, if the AAR is negative only on day 0, it indicates that the market reacted quickly to the CSRD release. 
+
+\begin{equation}
+AAR_{t} = \frac{1}{N} \sum_{i=1}^{N}AR_{it}
+\end{equation}
+
+- **Cumulative Abnormal Return (CAR) per firm** (event window)
+
+\begin{equation}
+CAR_{\tau_1, \tau_2} = \sum_{t=\tau_1}^{\tau_2}AR_{it}
+\end{equation}
+
+- **Cross-Sectional Average CAR (CACAR)** (event window)
+
+The overall market reaction, test the main effect (the overall negative impact hypothesized in H1)
+
+\begin{equation}
+CACAR = \frac{1}{N} \sum_{i=1}^{N}CAR_i
+\end{equation}
+
+- **Step 1: Parametric t-test on CARs ($CAR_{\tau_1, \tau_2}$)** 
+
+T-test if the mean of CARs is significantly negative (one-tailed test). If the p-value is less than 0.05, we reject the null hypothesis (CACAR is not significantly negative) and support H1: the market reacts negatively to CSRD events.
+
+- **Step 2: Non-parametric Corrado test on CACAR (on ARs)**
+
+Corrado Rank Test if the p-value is less than 0.05, we reject the null hypothesis (negative $AR_{it}$ is not detected) and support H1: the market reacts negatively to CSRD events.
+
+
+### Regression Analysis (H2)
+
+\begin{equation}
+CAR_{i} = \beta_0 + \beta_1ESG_Dep_i + \beta_2ln(Assets_i) + \beta_3ESG_rating_i + \epsilon_{it}
+\end{equation}
+
+Variable definitions see @tbl-variable
+
+```{r}
+#| label: tbl-variable
+#| tbl-cap: "Variable Definition"
+
+vf<- tibble (
+  Term = c ("Dependent Variable", "Key Predictor", "Size Control", "ESG Control"),
+  Symbol = c ("$CAR_i$", "$ESG\\_Dep_i$", "$ln(Assets_i)$", "$ESG\\_rating_i$"),
+  Measurement = c ("Cumulative Abnormal Return [-1, +3]", 
+                    "Bloomberg ESG Resource Dependence Score", 
+                    "Ln of total assets", 
+                    "ESG rating")
+
+)
+
+kbl (vf, booktabs = T, escape = FALSE) |>
+  kable_styling(latex_options = c("striped"), 
+                font_size = 9) |>
+  column_spec(1, bold = TRUE, 
+              width = "4cm") |>
+  column_spec(2, width = "2cm") |>
+  column_spec(3, width = "4cm") |>
+  row_spec(0, bold = TRUE)
+
+
+
+```
+
+
+Expected output: $\beta_1$ <0 and p<0.05, evience supporting H2: ESG risk exposure (Bloomberg ESG Resource Dependence Score) amplifies abnormal (negative) returns

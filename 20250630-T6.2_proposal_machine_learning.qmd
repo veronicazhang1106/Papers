@@ -2,7 +2,9 @@
 title: "T6.2 empirical research - machine learning approach"
 date: 2025-06-30
 dateformat: long
-author: Veronica Zhang
+author: 
+  - Veronica Zhang
+  - Junyu Zhang
 format: 
   html:
     toc: true
@@ -119,7 +121,7 @@ dataset: panel data of EU firms/financial institutions from 2018-2024
 ## Enhanced output - machine learning
 
 academic paper: "predicting biodiversity compliance risks using machine learning"
-
+ 
 ## Timeline and contingency
 
 - data collection, tidying 2-4 months
