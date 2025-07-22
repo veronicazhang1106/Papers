@@ -160,3 +160,44 @@ kbl (vf, booktabs = T, escape = FALSE) |>
 
 
 Expected output: $\beta_1$ <0 and p<0.05, evience supporting H2: ESG risk exposure (Bloomberg ESG Resource Dependence Score) amplifies abnormal (negative) returns
+
+
+## Additional information
+
+AR/CAR can also be estimated using [Fama-French factor models](https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html).
+
+More CRSD event windows can be selected as optional (significance requires further analysis).
+
+Key regulatory events (provided by ChatGPT):
+
+- **Oct 22, 2014**: EU adopts the Non-Financial Reporting Directive (NFRD) (Directive 2014/95/EU)  
+
+- **Dec 12, 2015**: Paris Agreement adopted (UNFCCC COP21)  
+
+- **Dec 11, 2019**: EU announces the European Green Deal  
+
+- **July 21, 2021**: EU publishes EU Taxonomy Climate Delegated Act  
+
+- **Apr 21, 2021**: European Commission proposes the Corporate Sustainability Reporting Directive (CSRD)  
+
+- **Nov 3, 2021**: ISSB (International Sustainability Standards Board) launched  
+
+- **Nov 10, 2022**: European Parliament adopts CSRD  
+
+- **Nov 28, 2022**: EU Council formally adopts CSRD  
+
+- **Dec 14, 2022**: CSRD published in the EU Official Journal (Directive (EU) 2022/2464)  
+
+- **Jan 5, 2023**: CSRD enters into force  
+
+- **July 31, 2023**: European Commission adopts ESRS Set 1 (12 cross-cutting and topical standards)  
+
+- **July 6, 2024**: Deadline for Member States to transpose CSRD into national law  
+
+- **Jan 1, 2024**:  
+  + Applicable to: Companies under NFRD (~11,700 large public-interest entities)  
+  + First report due: April 30, 2025
+
+- **Jan 1, 2025**:  
+  + Applicable to: Other large EU companies (≥250 employees, €40M turnover, or €20M assets)  
+  + First report due: April 30, 2026
